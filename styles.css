@@ -57,9 +57,10 @@ a {
   display: flex;
   gap: 18px;
   justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1230px;
-  padding: 24px 24px 24px 8px;
+  margin: 0;
+  max-width: none;
+  padding: 20px 32px 20px 0;
+  width: 100%;
 }
 
 .brand,
@@ -76,9 +77,9 @@ a {
 
 .brand-logo {
   filter: drop-shadow(0 8px 18px rgba(20, 12, 10, 0.24));
-  height: 115px;
+  height: 150px;
   object-fit: contain;
-  width: min(468px, 62vw);
+  width: min(610px, 68vw);
 }
 
 .nav-actions {
@@ -525,7 +526,7 @@ select {
   .nav {
     align-items: center;
     gap: 18px;
-    padding: 18px 16px 18px 6px;
+    padding: 14px 14px 14px 0;
   }
 
   .brand {
@@ -537,8 +538,8 @@ select {
   }
 
   .brand-logo {
-    height: 86px;
-    width: min(342px, 66vw);
+    height: 108px;
+    width: min(430px, 72vw);
   }
 
   .nav-actions {
