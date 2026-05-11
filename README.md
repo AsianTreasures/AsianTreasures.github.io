@@ -31,6 +31,8 @@ description: Elegant Pakistani kurta with embroidery.
 
 `name`, `price`, and `description` get special styling. Any other fields are shown automatically.
 
+The website gets the item name from `name:` in `details.txt`. If `name:` is missing, the catalog generator falls back to the folder name, so `emerald-embroidered-kurta` becomes `Emerald Embroidered Kurta`.
+
 ## Payment and Contact
 
 Edit `config/payment.json` with your WhatsApp Business number or link:
@@ -54,6 +56,8 @@ python3 scripts/build_catalog.py
 ```
 
 This updates `catalog.json`, which the static website reads in the browser.
+
+New folders will not appear on the live site until `catalog.json` is regenerated, committed, and pushed.
 
 ## GitHub Pages
 

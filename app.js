@@ -117,7 +117,18 @@ function whatsappHref(value, message) {
 }
 
 function contactLinks(item) {
-  const message = encodeURIComponent(`Hi, I am interested in ${item.details.name} (${item.details.price}).`);
+  const message = encodeURIComponent(
+    [
+      "Hi Asian Treasures, I am interested in this item:",
+      "",
+      `Name: ${item.details.name}`,
+      `Price: ${item.details.price || "Please confirm"}`,
+      `Category: ${item.category}`,
+      "",
+      "Is it available?",
+      "Please let me know the available sizes.",
+    ].join("\n"),
+  );
   return state.payment.methods
     .map((method) => {
       const type = method.type.toLowerCase();
