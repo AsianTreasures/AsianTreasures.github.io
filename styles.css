@@ -74,15 +74,14 @@ a {
   min-width: 0;
 }
 
-.brand-mark {
-  align-items: center;
-  background: rgba(255, 255, 255, 0.16);
+.brand-logo {
+  background: rgba(255, 250, 245, 0.94);
   border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 50%;
-  display: inline-flex;
-  height: 42px;
-  justify-content: center;
-  width: 42px;
+  border-radius: 8px;
+  box-shadow: 0 12px 34px rgba(20, 12, 10, 0.18);
+  height: 58px;
+  padding: 8px 12px;
+  width: min(278px, 54vw);
 }
 
 .nav-actions {
@@ -540,9 +539,9 @@ select {
     max-width: 8.5rem;
   }
 
-  .brand-mark {
-    height: 38px;
-    width: 38px;
+  .brand-logo {
+    height: 50px;
+    width: min(230px, 58vw);
   }
 
   .nav-actions {
