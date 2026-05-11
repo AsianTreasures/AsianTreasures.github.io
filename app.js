@@ -93,12 +93,27 @@ function renderCatalog() {
 function renderPayments() {
   paymentList.replaceChildren();
 
+  const intro = document.createElement("p");
+  intro.className = "contact-intro";
+  intro.textContent =
+    state.payment.orderMessage || "Message us on WhatsApp Business to ask questions and place your order.";
+  paymentList.append(intro);
+
   for (const method of state.payment.methods) {
+    const link = method.type.toLowerCase() === "whatsapp" ? whatsappHref(method.value, "") : method.value;
     const row = document.createElement("div");
     row.className = "payment-item";
-    row.innerHTML = `<strong>${method.label}</strong><span>${method.value}</span>`;
+    row.innerHTML = `<strong>${method.label}</strong><a href="${link}" target="_blank" rel="noopener">${method.value}</a>`;
     paymentList.append(row);
   }
+}
+
+function whatsappHref(value, message) {
+  const trimmed = String(value || "").trim();
+  if (/^https?:\/\//i.test(trimmed)) {
+    return `${trimmed}${message ? `${trimmed.includes("?") ? "&" : "?"}text=${message}` : ""}`;
+  }
+  return `https://wa.me/${trimmed.replace(/\D/g, "")}${message ? `?text=${message}` : ""}`;
 }
 
 function contactLinks(item) {
@@ -106,13 +121,10 @@ function contactLinks(item) {
   return state.payment.methods
     .map((method) => {
       const type = method.type.toLowerCase();
-      if (type === "phone") return { label: "Call", href: `tel:${method.value.replace(/\s/g, "")}`, secondary: false };
-      if (type === "sms") return { label: "Text", href: `sms:${method.value.replace(/\s/g, "")}?&body=${message}`, secondary: false };
-      if (type === "email") return { label: "Email", href: `mailto:${method.value}?subject=Product inquiry&body=${message}`, secondary: false };
-      if (type === "whatsapp") return { label: "WhatsApp", href: `https://wa.me/${method.value.replace(/\D/g, "")}?text=${message}`, secondary: false };
+      if (type === "whatsapp") return { label: "Message on WhatsApp", href: whatsappHref(method.value, message), secondary: false };
       return { label: method.label, href: "#contact", secondary: true };
     })
-    .slice(0, 4);
+    .slice(0, 1);
 }
 
 function openDialog(item) {

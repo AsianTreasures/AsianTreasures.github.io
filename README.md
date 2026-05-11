@@ -33,7 +33,17 @@ description: Elegant Pakistani kurta with embroidery.
 
 ## Payment and Contact
 
-Edit `config/payment.json` to add Zelle, phone, email, SMS, or WhatsApp contact methods.
+Edit `config/payment.json` with your WhatsApp Business number or link:
+
+```json
+{
+  "type": "WhatsApp",
+  "label": "WhatsApp Business",
+  "value": "+1 555 123 4567"
+}
+```
+
+You can also use a direct WhatsApp link as the value.
 
 ## Updating Products
 

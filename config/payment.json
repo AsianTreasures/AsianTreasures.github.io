@@ -1,26 +1,12 @@
 {
   "storeName": "Asian Treasures",
   "currency": "USD",
+  "orderMessage": "Message us on WhatsApp Business to ask questions, confirm availability, and place your order.",
   "methods": [
     {
-      "type": "Zelle",
-      "label": "Zelle",
-      "value": "your-zelle-email@example.com"
-    },
-    {
-      "type": "Phone",
-      "label": "Call",
+      "type": "WhatsApp",
+      "label": "WhatsApp Business",
       "value": "+1 555 123 4567"
-    },
-    {
-      "type": "SMS",
-      "label": "Text",
-      "value": "+1 555 123 4567"
-    },
-    {
-      "type": "Email",
-      "label": "Email",
-      "value": "orders@example.com"
     }
   ]
 }

@@ -167,6 +167,13 @@ main {
   margin: 0;
 }
 
+.shipping-note {
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.7;
+  margin: 16px 0 0;
+  max-width: 440px;
+}
+
 .catalog-shell {
   align-items: start;
   display: grid;
@@ -308,6 +315,12 @@ select {
   gap: 12px;
 }
 
+.contact-intro {
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.7;
+  margin: 0;
+}
+
 .payment-item {
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -320,7 +333,7 @@ select {
   margin-bottom: 4px;
 }
 
-.payment-item span {
+.payment-item a {
   color: rgba(255, 255, 255, 0.76);
   overflow-wrap: anywhere;
 }
@@ -406,6 +419,17 @@ select {
   color: var(--rose);
   font-size: 1.4rem;
   font-weight: 800;
+}
+
+.dialog-shipping {
+  background: #f7efe6;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 18px 0 0;
+  padding: 12px 14px;
 }
 
 .details-list {
