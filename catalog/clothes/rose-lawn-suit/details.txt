@@ -1,0 +1,7 @@
+name: Rose Printed Lawn Suit
+price: $92
+size: M, L
+color: Blush rose
+fabric: Lawn cotton
+pieces: Shirt, trouser, dupatta
+description: A soft Pakistani lawn suit with airy floral print and a matching dupatta for daytime occasions.

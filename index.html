@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Asian Treasures | Pakistani Fashion</title>
+    <meta name="description" content="Elegant Pakistani fashion catalog for clothes, shoes, jewelry, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#">
+          <span class="brand-mark">AT</span>
+          <span>Asian Treasures</span>
+        </a>
+        <div class="nav-actions">
+          <a href="#collection">Collection</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Pakistani Fashion</p>
+          <h1 id="page-title">Asian Treasures</h1>
+          <p>Curated Pakistani clothes, khussas, and jewelry with graceful details, rich color, and easy contact ordering.</p>
+          <a class="primary-link" href="#collection">View Collection</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section-head" id="collection">
+        <p class="eyebrow">Browse</p>
+        <h2>Latest Pieces</h2>
+      </section>
+
+      <section class="catalog-shell" aria-label="Product catalog">
+        <aside class="filters" aria-label="Category filters">
+          <button class="filter active" data-category="all" type="button">All</button>
+        </aside>
+
+        <div>
+          <div class="toolbar">
+            <p id="item-count">Loading collection...</p>
+            <select id="sort-select" aria-label="Sort products">
+              <option value="featured">Featured</option>
+              <option value="price-low">Price: low to high</option>
+              <option value="price-high">Price: high to low</option>
+              <option value="name">Name</option>
+            </select>
+          </div>
+          <div class="product-grid" id="product-grid"></div>
+        </div>
+      </section>
+
+      <section class="contact-band" id="contact">
+        <div>
+          <p class="eyebrow">Order</p>
+          <h2>Simple Contact Checkout</h2>
+        </div>
+        <div class="payment-list" id="payment-list"></div>
+      </section>
+    </main>
+
+    <dialog class="product-dialog" id="product-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" id="dialog-close" type="button" aria-label="Close product details">&times;</button>
+      <div class="dialog-grid">
+        <div>
+          <img id="dialog-image" src="" alt="">
+          <div class="thumb-row" id="thumb-row"></div>
+        </div>
+        <div class="dialog-content">
+          <p class="eyebrow" id="dialog-category"></p>
+          <h2 id="dialog-title"></h2>
+          <p class="dialog-price" id="dialog-price"></p>
+          <p id="dialog-description"></p>
+          <dl class="details-list" id="details-list"></dl>
+          <div class="dialog-actions" id="dialog-actions"></div>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>

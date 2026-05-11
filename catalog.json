@@ -1,0 +1,83 @@
+[
+  {
+    "slug": "clothes",
+    "name": "Clothes",
+    "items": [
+      {
+        "slug": "emerald-embroidered-kurta",
+        "path": "catalog/clothes/emerald-embroidered-kurta",
+        "images": [
+          "catalog/clothes/emerald-embroidered-kurta/1.png"
+        ],
+        "details": {
+          "name": "Emerald Embroidered Kurta",
+          "price": "$79",
+          "size": "S, M, L",
+          "color": "Emerald",
+          "fabric": "Cotton silk",
+          "work": "Thread embroidery",
+          "description": "A graceful emerald kurta with delicate neckline embroidery and an elegant festive finish."
+        }
+      },
+      {
+        "slug": "rose-lawn-suit",
+        "path": "catalog/clothes/rose-lawn-suit",
+        "images": [
+          "catalog/clothes/rose-lawn-suit/1.png"
+        ],
+        "details": {
+          "name": "Rose Printed Lawn Suit",
+          "price": "$92",
+          "size": "M, L",
+          "color": "Blush rose",
+          "fabric": "Lawn cotton",
+          "pieces": "Shirt, trouser, dupatta",
+          "description": "A soft Pakistani lawn suit with airy floral print and a matching dupatta for daytime occasions."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "jewelry",
+    "name": "Jewelry",
+    "items": [
+      {
+        "slug": "kundan-earrings",
+        "path": "catalog/jewelry/kundan-earrings",
+        "images": [
+          "catalog/jewelry/kundan-earrings/1.png"
+        ],
+        "details": {
+          "name": "Kundan Pearl Earrings",
+          "price": "$36",
+          "color": "Gold and pearl",
+          "material": "Alloy, faux pearls, kundan stones",
+          "closure": "Push back",
+          "description": "Statement kundan earrings with pearl drops, made for mehndi nights, Eid outfits, and formal wear."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "shoes",
+    "name": "Shoes",
+    "items": [
+      {
+        "slug": "gold-khussa",
+        "path": "catalog/shoes/gold-khussa",
+        "images": [
+          "catalog/shoes/gold-khussa/1.png"
+        ],
+        "details": {
+          "name": "Gold Mirror Work Khussa",
+          "price": "$48",
+          "size": "6, 7, 8, 9",
+          "color": "Antique gold",
+          "material": "Leather upper",
+          "work": "Mirror and dabka-inspired detailing",
+          "description": "Traditional khussa flats with warm gold shimmer, comfortable lining, and festive handwork detail."
+        }
+      }
+    ]
+  }
+]

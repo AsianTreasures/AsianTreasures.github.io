@@ -1,0 +1,7 @@
+name: Gold Mirror Work Khussa
+price: $48
+size: 6, 7, 8, 9
+color: Antique gold
+material: Leather upper
+work: Mirror and dabka-inspired detailing
+description: Traditional khussa flats with warm gold shimmer, comfortable lining, and festive handwork detail.

@@ -1,0 +1,6 @@
+name: Kundan Pearl Earrings
+price: $36
+color: Gold and pearl
+material: Alloy, faux pearls, kundan stones
+closure: Push back
+description: Statement kundan earrings with pearl drops, made for mehndi nights, Eid outfits, and formal wear.

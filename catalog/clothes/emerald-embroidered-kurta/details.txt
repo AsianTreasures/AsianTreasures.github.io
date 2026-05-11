@@ -1,0 +1,7 @@
+name: Emerald Embroidered Kurta
+price: $79
+size: S, M, L
+color: Emerald
+fabric: Cotton silk
+work: Thread embroidery
+description: A graceful emerald kurta with delicate neckline embroidery and an elegant festive finish.
