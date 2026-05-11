@@ -75,14 +75,10 @@ a {
 }
 
 .brand-logo {
-  background: rgba(255, 255, 255, 0.94);
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 8px;
-  box-shadow: 0 12px 34px rgba(20, 12, 10, 0.18);
-  height: 74px;
+  filter: drop-shadow(0 8px 18px rgba(20, 12, 10, 0.24));
+  height: 96px;
   object-fit: contain;
-  padding: 6px 10px;
-  width: min(310px, 54vw);
+  width: min(390px, 58vw);
 }
 
 .nav-actions {
@@ -541,8 +537,8 @@ select {
   }
 
   .brand-logo {
-    height: 58px;
-    width: min(240px, 58vw);
+    height: 72px;
+    width: min(285px, 62vw);
   }
 
   .nav-actions {
