@@ -161,8 +161,7 @@ function updateShippingEstimate() {
   if (!state.shipping || !shippingRegion) return;
 
   const selectedRegion = state.shipping.regions.find((region) => region.id === shippingRegion.value);
-  const count = Math.max(1, Number.parseInt(suitCount.value, 10) || 1);
-  suitCount.value = count;
+  const count = Number.parseInt(suitCount.value, 10);
 
   if (!selectedRegion) {
     shippingCost.textContent = "$0.00";
@@ -170,8 +169,28 @@ function updateShippingEstimate() {
     return;
   }
 
-  shippingCost.textContent = currency.format(calculateShipping(selectedRegion.baseRate, count));
+  if (!count || count < 1) {
+    shippingCost.textContent = "$0.00";
+    shippingTime.textContent = selectedRegion.deliveryTime;
+    return;
+  }
+
+  shippingCost.textContent = currency.format(calculateShipping(selectedRegion.baseRate, Math.min(count, 12)));
   shippingTime.textContent = selectedRegion.deliveryTime;
+}
+
+function normalizeSuitCount() {
+  const count = Number.parseInt(suitCount.value, 10);
+
+  if (!count || count < 1) {
+    suitCount.value = 1;
+  } else if (count > 12) {
+    suitCount.value = 12;
+  } else {
+    suitCount.value = count;
+  }
+
+  updateShippingEstimate();
 }
 
 function whatsappHref(value, message) {
@@ -288,6 +307,10 @@ if (shippingForm) {
   shippingForm.addEventListener("input", updateShippingEstimate);
   shippingForm.addEventListener("change", updateShippingEstimate);
   shippingForm.addEventListener("submit", (event) => event.preventDefault());
+}
+if (suitCount) {
+  suitCount.addEventListener("blur", normalizeSuitCount);
+  suitCount.addEventListener("change", normalizeSuitCount);
 }
 dialogClose.addEventListener("click", () => dialog.close());
 dialog.addEventListener("click", (event) => {
