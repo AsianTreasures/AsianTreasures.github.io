@@ -79,7 +79,7 @@ a {
   filter: drop-shadow(0 8px 18px rgba(20, 12, 10, 0.24));
   height: 150px;
   object-fit: contain;
-  transform: translateX(-92px);
+  transform: translate(-142px, 14px);
   width: min(610px, 68vw);
 }
 
@@ -540,7 +540,7 @@ select {
 
   .brand-logo {
     height: 108px;
-    transform: translateX(-54px);
+    transform: translate(-82px, 10px);
     width: min(430px, 72vw);
   }
 
