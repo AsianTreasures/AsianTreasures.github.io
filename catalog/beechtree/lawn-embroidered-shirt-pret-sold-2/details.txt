@@ -1,9 +1,10 @@
-name: Lawn Embroidered Shirt-Pret sold
+name: Lawn Embroidered Shirt-Pret
 price: $26.00
 brand: Beechtree
+status: sold
 description: Basic Embroidered Shirt Having a Round Neckline with Crystal Buttons on Front.
 color: Bright Pink
 fabric: Lawn
 fit: Loose Fit
-size: S (10) sold
+size: S (10)
 what_you_will_get: Shirt

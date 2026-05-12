@@ -130,7 +130,7 @@
           "color": "Green",
           "fabric": "Multi Neps",
           "fit": "Loose Fit",
-          "size": "M (12), L (14) sold",
+          "size": "M (12), L (14)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -174,7 +174,7 @@
           "color": "Yellow",
           "fabric": "Missouri Lawn",
           "fit": "Regular Fit",
-          "size": "M (12), L (14)sold",
+          "size": "M (12), L (14)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -189,14 +189,15 @@
           "catalog/beechtree/embroidered-pret-sold/5.png"
         ],
         "details": {
-          "name": "Embroidered Pret sold",
+          "name": "Embroidered Pret",
           "price": "$22.00",
           "brand": "Beechtree",
+          "status": "sold",
           "description": "Basic Shirt with A Band Collar Having Lace Details on Neckline, Border and Slits Along with Embroidery on Sleeves.",
           "color": "Maroon",
           "fabric": "Naps",
           "fit": "Loose Fit",
-          "size": "L (14) sold",
+          "size": "L (14)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -238,7 +239,7 @@
           "color": "Peach",
           "fabric": "Yarn Dyed",
           "fit": "Loose Fit",
-          "size": "M (12), L (14) sold",
+          "size": "M (12), L (14)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -302,7 +303,7 @@
           "color": "Shocking Pink",
           "fabric": "Textured",
           "fit": "Loose Fit",
-          "size": "M (12), L (14) sold",
+          "size": "M (12), L (14)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -711,7 +712,7 @@
           "color": "Peach",
           "fabric": "Lawn",
           "fit": "Loose Fit",
-          "size": "M (12) sold, L (14)",
+          "size": "M (12), L (14)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -886,7 +887,7 @@
           "color": "Green",
           "fabric": "Lawn",
           "fit": "Loose Fit",
-          "size": "M (12) sold, L (14)",
+          "size": "M (12), L (14)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -1076,9 +1077,10 @@
           "catalog/beechtree/lawn-embroidered-shirt-pret-sold/5.png"
         ],
         "details": {
-          "name": "Lawn Embroidered Shirt-Pret sold",
+          "name": "Lawn Embroidered Shirt-Pret",
           "price": "$26.00",
           "brand": "Beechtree",
+          "status": "sold",
           "description": "Embroidered Matching Separate with Tussle Detailing on The Neck and Heavy Embroidered Border.",
           "color": "Mustard",
           "fabric": "Lawn",
@@ -1098,14 +1100,15 @@
           "catalog/beechtree/lawn-embroidered-shirt-pret-sold-2/5.png"
         ],
         "details": {
-          "name": "Lawn Embroidered Shirt-Pret sold",
+          "name": "Lawn Embroidered Shirt-Pret",
           "price": "$26.00",
           "brand": "Beechtree",
+          "status": "sold",
           "description": "Basic Embroidered Shirt Having a Round Neckline with Crystal Buttons on Front.",
           "color": "Bright Pink",
           "fabric": "Lawn",
           "fit": "Loose Fit",
-          "size": "S (10) sold",
+          "size": "S (10)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -1119,14 +1122,15 @@
           "catalog/beechtree/lawn-embroidered-shirt-pret-sold-3/4.png"
         ],
         "details": {
-          "name": "Lawn Embroidered Shirt-Pret sold",
+          "name": "Lawn Embroidered Shirt-Pret",
           "price": "$26.00",
           "brand": "Beechtree",
+          "status": "sold",
           "description": "Kurta Embroidered Shirt with Handwork Detail on Neckline. Floral Embroidered Sleeves with Lace Finish.",
           "color": "Pale Turquoise",
           "fabric": "Lawn",
           "fit": "Loose Fit",
-          "size": "M (12) sold, L (14) sold",
+          "size": "M (12), L (14)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -1141,14 +1145,15 @@
           "catalog/beechtree/lawn-embroidered-shirt-pret-sold-4/5.png"
         ],
         "details": {
-          "name": "Lawn Embroidered Shirt-Pret sold",
+          "name": "Lawn Embroidered Shirt-Pret",
           "price": "$26.00",
           "brand": "Beechtree",
+          "status": "sold",
           "description": "Embroidered Shirt with Round Neckline and Slit with Placket and Button Detail and Frayed Edges, And Embroidered Border on Sleeves.",
           "color": "Orange",
           "fabric": "Lawn",
           "fit": "Loose Fit",
-          "size": "L (14) sold",
+          "size": "L (14)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -1183,14 +1188,15 @@
           "catalog/beechtree/printed-shirt-pret-sold/5.png"
         ],
         "details": {
-          "name": "Printed Shirt-Pret Sold",
+          "name": "Printed Shirt-Pret",
           "price": "$24.00",
           "brand": "Beechtree",
+          "status": "sold",
           "description": "Screen printed kurta with lace detail on neckline and sleeves. Pearl tussle on front.",
           "color": "Peach",
           "fabric": "Viscose",
           "fit": "Loose Fit",
-          "size": "S (10) sold",
+          "size": "S (10)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -1205,9 +1211,10 @@
           "catalog/beechtree/shirt-and-trouser-pret-sold/5.png"
         ],
         "details": {
-          "name": "Shirt and Trouser-Pret sold",
+          "name": "Shirt and Trouser-Pret",
           "price": "$27.00",
           "brand": "Beechtree",
+          "status": "sold",
           "description": "Loose Fit Dropped Shoulder Short Shirt, With Embroidered Sleeves along with a trouser to complete a look.",
           "color": "Yellow",
           "fabric": "Multi Neps",
@@ -1425,7 +1432,7 @@
           "description": "Round Neckline with intricate Embroidery. Full Embroidered Sleeves Along with Top-Stitch Detail.",
           "color": "Pink",
           "fabric": "Khaddar",
-          "size": "S (10), M (12) Sold",
+          "size": "S (10), M (12)",
           "what_you_will_get": "Shirt"
         }
       },
@@ -1529,7 +1536,7 @@
           "description": "Beautiful 2-piece velvet dress with golden tilla work on its shirt. Perfect for special occasions.",
           "color": "Black",
           "fabric": "Velvet",
-          "size": "S (10),\u2002M (12) Sold",
+          "size": "S (10),\u2002M (12)",
           "what_you_will_get": "Shirt+Trouser"
         }
       },

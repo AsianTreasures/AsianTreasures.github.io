@@ -254,12 +254,35 @@ select {
   transform: translateY(-3px);
 }
 
+.card-image {
+  background: #f7efe6;
+  position: relative;
+}
+
 .product-card img {
   aspect-ratio: 4 / 5;
   background: #f7efe6;
   object-fit: contain;
   padding: 8px;
   width: 100%;
+}
+
+.product-card.sold-out {
+  opacity: 0.72;
+}
+
+.sold-badge {
+  background: var(--rose);
+  border-radius: 999px;
+  color: white;
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  padding: 8px 11px;
+  position: absolute;
+  right: 12px;
+  text-transform: uppercase;
+  top: 12px;
 }
 
 .card-body {
@@ -464,6 +487,18 @@ select {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.sold-notice {
+  background: #f7efe6;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--rose);
+  flex-basis: 100%;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 0;
+  padding: 12px 14px;
 }
 
 .interest-link {

@@ -1,9 +1,10 @@
-name: Embroidered Pret sold
+name: Embroidered Pret
 price: $22.00
 brand: Beechtree
+status: sold
 description: Basic Shirt with A Band Collar Having Lace Details on Neckline, Border and Slits Along with Embroidery on Sleeves.
 color: Maroon
 fabric: Naps
 fit: Loose Fit
-size: L (14) sold
+size: L (14)
 what_you_will_get: Shirt

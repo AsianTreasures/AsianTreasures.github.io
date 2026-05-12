@@ -97,6 +97,13 @@ def clean_text(value):
     return value.strip()
 
 
+def clean_size(value):
+    value = re.sub(r"\s*\bsold\b", "", value, flags=re.I)
+    value = re.sub(r"\s*,\s*,", ",", value)
+    value = re.sub(r"\s+,", ",", value)
+    return value.rstrip(", ").strip()
+
+
 def slugify(value):
     value = value.lower().replace("&", " and ")
     value = re.sub(r"[^a-z0-9]+", "-", value)
@@ -244,6 +251,8 @@ def main():
         }
         if "what_you_ll_get" in item_details:
             item_details["what_you_will_get"] = item_details.pop("what_you_ll_get")
+        if "size" in item_details:
+            item_details["size"] = clean_size(item_details["size"])
         item_details["brand"] = brand
 
         products.append(

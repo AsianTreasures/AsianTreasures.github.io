@@ -4,5 +4,5 @@ brand: Limelight
 description: Beautiful 2-piece velvet dress with golden tilla work on its shirt. Perfect for special occasions.
 color: Black
 fabric: Velvet
-size: S (10), M (12) Sold
+size: S (10), M (12)
 what_you_will_get: Shirt+Trouser

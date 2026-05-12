@@ -4,5 +4,5 @@ brand: Ethnic
 description: Round Neckline with intricate Embroidery. Full Embroidered Sleeves Along with Top-Stitch Detail.
 color: Pink
 fabric: Khaddar
-size: S (10), M (12) Sold
+size: S (10), M (12)
 what_you_will_get: Shirt

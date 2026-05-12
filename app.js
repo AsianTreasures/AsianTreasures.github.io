@@ -15,6 +15,7 @@ const dialogClose = document.querySelector("#dialog-close");
 
 const moneyNumber = (value) => Number(String(value || "").replace(/[^0-9.]/g, "")) || 0;
 const pretty = (value) => value.replace(/[-_]/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+const isSoldOut = (item) => String(item.details.status || "").toLowerCase() === "sold";
 
 async function loadData() {
   const [catalogResponse, paymentResponse] = await Promise.all([
@@ -72,10 +73,14 @@ function renderCatalog() {
 
   for (const item of items) {
     const card = document.createElement("button");
-    card.className = "product-card";
+    const soldOut = isSoldOut(item);
+    card.className = `product-card${soldOut ? " sold-out" : ""}`;
     card.type = "button";
     card.innerHTML = `
-      <img src="${item.images[0]}" alt="${item.details.name}">
+      <div class="card-image">
+        <img src="${item.images[0]}" alt="${item.details.name}">
+        ${soldOut ? '<span class="sold-badge">Sold</span>' : ""}
+      </div>
       <div class="card-body">
         <p class="card-meta">${item.category}</p>
         <h3>${item.details.name}</h3>
@@ -117,17 +122,28 @@ function whatsappHref(value, message) {
 }
 
 function contactLinks(item) {
+  const soldOut = isSoldOut(item);
   const message = encodeURIComponent(
-    [
-      "Hi Asian Treasures, I am interested in this item:",
-      "",
-      `Name: ${item.details.name}`,
-      `Price: ${item.details.price || "Please confirm"}`,
-      `Category: ${item.category}`,
-      "",
-      "Is it available?",
-      "Please let me know the available sizes.",
-    ].join("\n"),
+    soldOut
+      ? [
+          "Hi Asian Treasures, I saw this sold item and would like something similar:",
+          "",
+          `Name: ${item.details.name}`,
+          `Price: ${item.details.price || "Please confirm"}`,
+          `Category: ${item.category}`,
+          "",
+          "Can you show me similar available styles?",
+        ].join("\n")
+      : [
+          "Hi Asian Treasures, I am interested in this item:",
+          "",
+          `Name: ${item.details.name}`,
+          `Price: ${item.details.price || "Please confirm"}`,
+          `Category: ${item.category}`,
+          "",
+          "Is it available?",
+          "Please let me know the available sizes.",
+        ].join("\n"),
   );
   return state.payment.methods
     .map((method) => {
@@ -176,6 +192,12 @@ function openDialog(item) {
     });
 
   actions.replaceChildren();
+  if (isSoldOut(item)) {
+    const notice = document.createElement("p");
+    notice.className = "sold-notice";
+    notice.textContent = "This item is sold. Message us for similar available styles.";
+    actions.append(notice);
+  }
   contactLinks(item).forEach((link) => {
     const anchor = document.createElement("a");
     anchor.className = `interest-link${link.secondary ? " secondary" : ""}`;

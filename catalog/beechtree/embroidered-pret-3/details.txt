@@ -5,5 +5,5 @@ description: Embroidered Kurta with Band Neckline and Slit. Embroidered Border o
 color: Yellow
 fabric: Missouri Lawn
 fit: Regular Fit
-size: M (12), L (14)sold
+size: M (12), L (14)
 what_you_will_get: Shirt

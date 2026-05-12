@@ -5,5 +5,5 @@ description: Loose Fit Embroidered Kurta with Pani Work and Tassel Detail on Nec
 color: Shocking Pink
 fabric: Textured
 fit: Loose Fit
-size: M (12), L (14) sold
+size: M (12), L (14)
 what_you_will_get: Shirt
