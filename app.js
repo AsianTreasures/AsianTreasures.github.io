@@ -3,6 +3,7 @@ const state = {
   category: "all",
   sort: "featured",
   payment: null,
+  shipping: window.shippingConfig || null,
 };
 
 const grid = document.querySelector("#product-grid");
@@ -12,10 +13,19 @@ const sortSelect = document.querySelector("#sort-select");
 const paymentList = document.querySelector("#payment-list");
 const dialog = document.querySelector("#product-dialog");
 const dialogClose = document.querySelector("#dialog-close");
+const shippingForm = document.querySelector("#shipping-form");
+const suitCount = document.querySelector("#suit-count");
+const shippingRegion = document.querySelector("#shipping-region");
+const shippingCost = document.querySelector("#shipping-cost");
+const shippingTime = document.querySelector("#shipping-time");
+const shippingService = document.querySelector("#shipping-service");
+const shippingFreeNote = document.querySelector("#shipping-free-note");
+const shippingExclusion = document.querySelector("#shipping-exclusion");
 
 const moneyNumber = (value) => Number(String(value || "").replace(/[^0-9.]/g, "")) || 0;
 const pretty = (value) => value.replace(/[-_]/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
 const isSoldOut = (item) => String(item.details.status || "").toLowerCase() === "sold";
+const currency = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
 
 async function loadData() {
   const [catalogResponse, paymentResponse] = await Promise.all([
@@ -28,6 +38,7 @@ async function loadData() {
 
   renderFilters();
   renderPayments();
+  renderShippingCalculator();
   renderCatalog();
 }
 
@@ -113,6 +124,46 @@ function renderPayments() {
   }
 }
 
+function calculateShipping(baseRate, count) {
+  const extraSuitCount = Math.max(0, count - 1);
+  return baseRate * (1 + extraSuitCount * state.shipping.additionalSuitMultiplier);
+}
+
+function renderShippingCalculator() {
+  if (!state.shipping || !shippingForm) return;
+
+  shippingService.textContent = state.shipping.serviceName;
+  shippingFreeNote.textContent = state.shipping.freeShippingMessage;
+  shippingExclusion.textContent = state.shipping.excludedDestinations;
+  shippingRegion.replaceChildren();
+
+  state.shipping.regions.forEach((region) => {
+    const option = document.createElement("option");
+    option.value = region.id;
+    option.textContent = region.label;
+    shippingRegion.append(option);
+  });
+
+  updateShippingEstimate();
+}
+
+function updateShippingEstimate() {
+  if (!state.shipping || !shippingRegion) return;
+
+  const selectedRegion = state.shipping.regions.find((region) => region.id === shippingRegion.value);
+  const count = Math.max(1, Number.parseInt(suitCount.value, 10) || 1);
+  suitCount.value = count;
+
+  if (!selectedRegion) {
+    shippingCost.textContent = "$0.00";
+    shippingTime.textContent = "Select a region";
+    return;
+  }
+
+  shippingCost.textContent = currency.format(calculateShipping(selectedRegion.baseRate, count));
+  shippingTime.textContent = selectedRegion.deliveryTime;
+}
+
 function whatsappHref(value, message) {
   const trimmed = String(value || "").trim();
   if (/^https?:\/\//i.test(trimmed)) {
@@ -142,7 +193,7 @@ function contactLinks(item) {
           `Category: ${item.category}`,
           "",
           "Is it available?",
-          "Please let me know the available sizes.",
+          "Please let me know the available sizes, shipping estimate, and return policy.",
         ].join("\n"),
   );
   return state.payment.methods
@@ -223,6 +274,9 @@ sortSelect.addEventListener("change", (event) => {
   renderCatalog();
 });
 
+shippingForm?.addEventListener("input", updateShippingEstimate);
+shippingForm?.addEventListener("change", updateShippingEstimate);
+shippingForm?.addEventListener("submit", (event) => event.preventDefault());
 dialogClose.addEventListener("click", () => dialog.close());
 dialog.addEventListener("click", (event) => {
   if (event.target === dialog) dialog.close();

@@ -116,6 +116,7 @@ a {
 .hero h1,
 .section-head h2,
 .contact-band h2,
+.shipping-calculator h2,
 .dialog-content h2 {
   font-family: "Playfair Display", Georgia, serif;
 }
@@ -159,6 +160,8 @@ main {
 }
 
 .section-head h2,
+.shipping-calculator h2,
+.policy-band h2,
 .contact-band h2 {
   font-size: clamp(2rem, 4vw, 3.2rem);
   line-height: 1;
@@ -361,6 +364,111 @@ select {
   overflow-wrap: anywhere;
 }
 
+.shipping-calculator {
+  align-items: start;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 34px rgba(42, 31, 25, 0.08);
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+  margin-top: 44px;
+  padding: 32px;
+}
+
+.shipping-copy p:not(.eyebrow) {
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 16px 0 0;
+}
+
+.shipping-form {
+  display: grid;
+  gap: 16px;
+}
+
+.shipping-form label {
+  display: grid;
+  gap: 8px;
+}
+
+.shipping-form label span,
+.shipping-result span {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.shipping-form input,
+.shipping-form select {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  min-height: 46px;
+  padding: 10px 14px;
+  width: 100%;
+}
+
+.shipping-result {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.shipping-result div {
+  background: #f7efe6;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.shipping-result strong {
+  display: block;
+  font-size: 1.35rem;
+  margin-top: 6px;
+}
+
+.shipping-free-note {
+  background: rgba(14, 102, 92, 0.09);
+  border: 1px solid rgba(14, 102, 92, 0.18);
+  border-radius: 8px;
+  color: var(--teal);
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 0;
+  padding: 12px 14px;
+}
+
+.shipping-exclusion {
+  color: var(--rose);
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.policy-band {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 28px 32px;
+}
+
+.policy-band h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  margin: 0;
+}
+
+.policy-band p:not(.eyebrow) {
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.7;
+  margin: 14px 0 0;
+}
+
 .product-dialog {
   border: 0;
   border-radius: 8px;
@@ -532,6 +640,7 @@ select {
 
   .catalog-shell,
   .contact-band,
+  .shipping-calculator,
   .dialog-grid {
     grid-template-columns: 1fr;
   }
@@ -622,6 +731,18 @@ select {
 
   .contact-band {
     padding: 24px 18px;
+  }
+
+  .shipping-calculator {
+    padding: 24px 18px;
+  }
+
+  .policy-band {
+    padding: 24px 18px;
+  }
+
+  .shipping-result {
+    grid-template-columns: 1fr;
   }
 
   .product-dialog {

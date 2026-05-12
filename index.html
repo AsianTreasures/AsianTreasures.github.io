@@ -19,6 +19,7 @@
         </a>
         <div class="nav-actions">
           <a href="#collection">Collection</a>
+          <a href="#shipping">Shipping</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -58,11 +59,54 @@
         </div>
       </section>
 
+      <section class="shipping-calculator" id="shipping" aria-labelledby="shipping-title">
+        <div class="shipping-copy">
+          <p class="eyebrow">Shipping</p>
+          <h2 id="shipping-title">Economy Shipping Estimate</h2>
+          <p id="shipping-service">USPS-style economical shipping for ready-to-ship suits.</p>
+        </div>
+
+        <form class="shipping-form" id="shipping-form">
+          <label>
+            <span>Number of suits</span>
+            <input id="suit-count" name="suit-count" type="number" min="1" max="12" step="1" value="1">
+          </label>
+
+          <label>
+            <span>Shipping region</span>
+            <select id="shipping-region" name="shipping-region"></select>
+          </label>
+
+          <div class="shipping-result" aria-live="polite">
+            <div>
+              <span>Estimated cost</span>
+              <strong id="shipping-cost">$0.00</strong>
+            </div>
+            <div>
+              <span>Delivery time</span>
+              <strong id="shipping-time">Select a region</strong>
+            </div>
+          </div>
+
+          <p class="shipping-free-note" id="shipping-free-note"></p>
+          <p class="shipping-exclusion" id="shipping-exclusion"></p>
+        </form>
+      </section>
+
+      <section class="policy-band" aria-labelledby="return-policy-title">
+        <p class="eyebrow">Returns</p>
+        <h2 id="return-policy-title">Return Policy</h2>
+        <p>
+          Returns are accepted only for size changes and are subject to size availability.
+          Return shipping must be covered by the buyer.
+        </p>
+      </section>
+
       <section class="contact-band" id="contact">
         <div>
           <p class="eyebrow">Order</p>
           <h2>Order on WhatsApp</h2>
-          <p class="shipping-note">Shipping is free on orders of $100 or more. Orders below $100 are quoted based on delivery location.</p>
+          <p class="shipping-note">Orders over $100 receive free mainland U.S. shipping. Final shipping is confirmed before payment.</p>
         </div>
         <div class="payment-list" id="payment-list"></div>
       </section>
@@ -80,13 +124,14 @@
           <h2 id="dialog-title"></h2>
           <p class="dialog-price" id="dialog-price"></p>
           <p id="dialog-description"></p>
-          <p class="dialog-shipping">Free shipping on $100+ orders. Under $100, shipping is location based.</p>
+          <p class="dialog-shipping">Use the shipping calculator below the catalog for an economy mainland U.S. estimate.</p>
           <dl class="details-list" id="details-list"></dl>
           <div class="dialog-actions" id="dialog-actions"></div>
         </div>
       </div>
     </dialog>
 
+    <script src="shipping-config.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
