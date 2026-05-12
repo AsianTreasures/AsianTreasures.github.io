@@ -27,6 +27,12 @@ const pretty = (value) => value.replace(/[-_]/g, " ").replace(/\b\w/g, (letter) 
 const isSoldOut = (item) => String(item.details.status || "").toLowerCase() === "sold";
 const currency = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
 
+function clearElement(element) {
+  while (element.firstChild) {
+    element.removeChild(element.firstChild);
+  }
+}
+
 async function loadData() {
   const [catalogResponse, paymentResponse] = await Promise.all([
     fetch("catalog.json"),
@@ -38,19 +44,23 @@ async function loadData() {
 
   renderFilters();
   renderPayments();
-  renderShippingCalculator();
   renderCatalog();
 }
 
 function flattenCatalog() {
-  return state.catalog.flatMap((category) =>
-    category.items.map((item, index) => ({
-      ...item,
-      category: category.name,
-      categorySlug: category.slug,
-      featuredIndex: index,
-    })),
-  );
+  const items = [];
+
+  state.catalog.forEach((category) => {
+    category.items.forEach((item, index) => {
+      const catalogItem = Object.assign({}, item);
+      catalogItem.category = category.name;
+      catalogItem.categorySlug = category.slug;
+      catalogItem.featuredIndex = index;
+      items.push(catalogItem);
+    });
+  });
+
+  return items;
 }
 
 function visibleItems() {
@@ -74,12 +84,12 @@ function renderFilters() {
     return button;
   });
 
-  filters.append(...categoryButtons);
+  categoryButtons.forEach((button) => filters.appendChild(button));
 }
 
 function renderCatalog() {
   const items = visibleItems();
-  grid.replaceChildren();
+  clearElement(grid);
   count.textContent = `${items.length} ${items.length === 1 ? "piece" : "pieces"}`;
 
   for (const item of items) {
@@ -102,25 +112,25 @@ function renderCatalog() {
       </div>
     `;
     card.addEventListener("click", () => openDialog(item));
-    grid.append(card);
+    grid.appendChild(card);
   }
 }
 
 function renderPayments() {
-  paymentList.replaceChildren();
+  clearElement(paymentList);
 
   const intro = document.createElement("p");
   intro.className = "contact-intro";
   intro.textContent =
     state.payment.orderMessage || "Message us on WhatsApp Business to ask questions and place your order.";
-  paymentList.append(intro);
+  paymentList.appendChild(intro);
 
   for (const method of state.payment.methods) {
     const link = method.type.toLowerCase() === "whatsapp" ? whatsappHref(method.value, "") : method.value;
     const row = document.createElement("div");
     row.className = "payment-item";
     row.innerHTML = `<strong>${method.label}</strong><a href="${link}" target="_blank" rel="noopener">${method.value}</a>`;
-    paymentList.append(row);
+    paymentList.appendChild(row);
   }
 }
 
@@ -135,13 +145,13 @@ function renderShippingCalculator() {
   shippingService.textContent = state.shipping.serviceName;
   shippingFreeNote.textContent = state.shipping.freeShippingMessage;
   shippingExclusion.textContent = state.shipping.excludedDestinations;
-  shippingRegion.replaceChildren();
+  clearElement(shippingRegion);
 
   state.shipping.regions.forEach((region) => {
     const option = document.createElement("option");
     option.value = region.id;
     option.textContent = region.label;
-    shippingRegion.append(option);
+    shippingRegion.appendChild(option);
   });
 
   updateShippingEstimate();
@@ -218,7 +228,7 @@ function openDialog(item) {
 
   image.src = item.images[0];
   image.alt = item.details.name;
-  thumbRow.replaceChildren();
+  clearElement(thumbRow);
 
   item.images.forEach((src, index) => {
     const button = document.createElement("button");
@@ -230,31 +240,31 @@ function openDialog(item) {
       thumbRow.querySelectorAll("button").forEach((thumb) => thumb.classList.remove("active"));
       button.classList.add("active");
     });
-    thumbRow.append(button);
+    thumbRow.appendChild(button);
   });
 
-  detailsList.replaceChildren();
+  clearElement(detailsList);
   Object.entries(item.details)
     .filter(([key]) => !["name", "price", "description"].includes(key))
     .forEach(([key, value]) => {
       const row = document.createElement("div");
       row.innerHTML = `<dt>${pretty(key)}</dt><dd>${value}</dd>`;
-      detailsList.append(row);
+      detailsList.appendChild(row);
     });
 
-  actions.replaceChildren();
+  clearElement(actions);
   if (isSoldOut(item)) {
     const notice = document.createElement("p");
     notice.className = "sold-notice";
     notice.textContent = "This item is sold. Message us for similar available styles.";
-    actions.append(notice);
+    actions.appendChild(notice);
   }
   contactLinks(item).forEach((link) => {
     const anchor = document.createElement("a");
     anchor.className = `interest-link${link.secondary ? " secondary" : ""}`;
     anchor.href = link.href;
     anchor.textContent = link.label;
-    actions.append(anchor);
+    actions.appendChild(anchor);
   });
 
   dialog.showModal();
@@ -274,14 +284,17 @@ sortSelect.addEventListener("change", (event) => {
   renderCatalog();
 });
 
-shippingForm?.addEventListener("input", updateShippingEstimate);
-shippingForm?.addEventListener("change", updateShippingEstimate);
-shippingForm?.addEventListener("submit", (event) => event.preventDefault());
+if (shippingForm) {
+  shippingForm.addEventListener("input", updateShippingEstimate);
+  shippingForm.addEventListener("change", updateShippingEstimate);
+  shippingForm.addEventListener("submit", (event) => event.preventDefault());
+}
 dialogClose.addEventListener("click", () => dialog.close());
 dialog.addEventListener("click", (event) => {
   if (event.target === dialog) dialog.close();
 });
 
+renderShippingCalculator();
 loadData().catch((error) => {
   count.textContent = "Catalog could not be loaded.";
   console.error(error);
