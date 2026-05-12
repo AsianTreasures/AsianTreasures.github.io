@@ -1,0 +1,11 @@
+name: Embroidered Shirt-Pret
+price: $28.00
+brand: Beechtree
+description: Embroidered Panel Shirt with Intricate Embroidery Together with Sequence and Tilla Finished with Lace and Handwork Details.
+source: https://asiantreasures.wordpress.com/1610-2/
+color: Blue
+fabric: Viscose
+fit: Regular Fit
+old_site_slug: 1610-2
+size: M (12)
+what_you_ll_get: Shirt

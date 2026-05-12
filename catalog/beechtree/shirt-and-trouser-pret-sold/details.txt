@@ -1,0 +1,11 @@
+name: Shirt and Trouser-Pret sold
+price: $27.00
+brand: Beechtree
+description: Loose Fit Dropped Shoulder Short Shirt, With Embroidered Sleeves along with a trouser to complete a look.
+source: https://asiantreasures.wordpress.com/582-2/
+color: Yellow
+fabric: Multi Neps
+fit: Loose Fit
+old_site_slug: 582-2
+size: M (12)
+what_you_ll_get: Shirt+ Trouser

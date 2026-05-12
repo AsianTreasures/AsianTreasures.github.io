@@ -1,0 +1,11 @@
+name: Embroidered Shirt-Pret
+price: $25.00
+brand: Beechtree
+description: Basic Band Neckline with Embroidered Front and Sleeves in Pastel Hues. Hand Embellished Detail on Neckline.
+source: https://asiantreasures.wordpress.com/1480-2/
+color: Light Blue
+fabric: Multi Neps
+fit: Loose Fit
+old_site_slug: 1480-2
+size: L (14)
+what_you_ll_get: Shirt

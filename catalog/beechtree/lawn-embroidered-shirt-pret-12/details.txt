@@ -1,0 +1,11 @@
+name: Lawn Embroidered Shirt-Pret
+price: $27.00
+brand: Beechtree
+description: Basic Embroidered Shirt with Round Neckline and Lace Insert, And Embroidered Border on Sleeves with Lace Inserts.
+source: https://asiantreasures.wordpress.com/172-2/
+color: Pistachio
+fabric: Lawn
+fit: Loose Fit
+old_site_slug: 172-2
+size: L (14)
+what_you_ll_get: Shirt

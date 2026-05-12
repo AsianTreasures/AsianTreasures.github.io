@@ -1,0 +1,11 @@
+name: Cotton Embroidered Shirt-Pret
+price: $24.00
+brand: Beechtree
+description: Boat Neck With Front Neckline Embroidery and Embroidery on Panels and Sleeves.
+source: https://asiantreasures.wordpress.com/222-2/
+color: Yellow
+fabric: Cotton
+fit: Loose Fit
+old_site_slug: 222-2
+size: L (14)
+what_you_ll_get: Shirt

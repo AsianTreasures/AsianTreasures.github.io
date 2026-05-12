@@ -1,0 +1,11 @@
+name: Embroidered Shirt-Pret
+price: $25.00
+brand: Beechtree
+description: Loose Fit Embroidered Kurta with Pani Work and Tassel Detail on Neckline.
+source: https://asiantreasures.wordpress.com/146-2/
+color: Shocking Pink
+fabric: Textured
+fit: Loose Fit
+old_site_slug: 146-2
+size: M (12), L (14) sold
+what_you_ll_get: Shirt

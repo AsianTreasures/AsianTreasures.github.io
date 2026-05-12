@@ -1,81 +1,1918 @@
 [
   {
-    "slug": "clothes",
-    "name": "Clothes",
+    "slug": "beechtree",
+    "name": "Beechtree",
     "items": [
       {
-        "slug": "emerald-embroidered-kurta",
-        "path": "catalog/clothes/emerald-embroidered-kurta",
+        "slug": "chiffon-embroidered-shirt-pret",
+        "path": "catalog/beechtree/chiffon-embroidered-shirt-pret",
         "images": [
-          "catalog/clothes/emerald-embroidered-kurta/1.png"
+          "catalog/beechtree/chiffon-embroidered-shirt-pret/1.png",
+          "catalog/beechtree/chiffon-embroidered-shirt-pret/2.png",
+          "catalog/beechtree/chiffon-embroidered-shirt-pret/3.png",
+          "catalog/beechtree/chiffon-embroidered-shirt-pret/4.png"
         ],
         "details": {
-          "name": "Emerald Embroidered Kurta",
-          "price": "$79",
-          "size": "S, M, L",
-          "color": "Emerald",
-          "fabric": "Cotton silk",
-          "work": "Thread embroidery",
-          "description": "A graceful emerald kurta with delicate neckline embroidery and an elegant festive finish."
+          "name": "Chiffon Embroidered Shirt-Pret",
+          "price": "$30.00",
+          "brand": "Beechtree",
+          "description": "Chiffon Shirt with Contrast Black Embroidery.",
+          "source": "https://asiantreasures.wordpress.com/986-2/",
+          "color": "Red",
+          "fabric": "Chiffon",
+          "fit": "Loose Fit",
+          "old_site_slug": "986-2",
+          "size": "M (12), L (14)",
+          "what_you_ll_get": "Shirt+Slip"
         }
       },
       {
-        "slug": "rose-lawn-suit",
-        "path": "catalog/clothes/rose-lawn-suit",
+        "slug": "cotton-embroidered-pret",
+        "path": "catalog/beechtree/cotton-embroidered-pret",
         "images": [
-          "catalog/clothes/rose-lawn-suit/1.png"
+          "catalog/beechtree/cotton-embroidered-pret/1.webp",
+          "catalog/beechtree/cotton-embroidered-pret/2.webp",
+          "catalog/beechtree/cotton-embroidered-pret/3.webp",
+          "catalog/beechtree/cotton-embroidered-pret/4.webp",
+          "catalog/beechtree/cotton-embroidered-pret/5.png"
         ],
         "details": {
-          "name": "Rose Printed Lawn Suit",
-          "price": "$92",
+          "name": "Cotton Embroidered Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "A Line Paneled Paper Cotton Shirt with Pleats and Stitch Details on Panels. Embroidery On Neckline and Sleeves with Colorful Resham, Tilla and Mirror Work.",
+          "source": "https://asiantreasures.wordpress.com/158-2/",
+          "color": "Paled Turquoise",
+          "fabric": "Cotton",
+          "fit": "Loose Fit",
+          "old_site_slug": "158-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt+Slip"
+        }
+      },
+      {
+        "slug": "cotton-embroidered-shirt-pret",
+        "path": "catalog/beechtree/cotton-embroidered-shirt-pret",
+        "images": [
+          "catalog/beechtree/cotton-embroidered-shirt-pret/1.webp",
+          "catalog/beechtree/cotton-embroidered-shirt-pret/2.webp",
+          "catalog/beechtree/cotton-embroidered-shirt-pret/3.webp",
+          "catalog/beechtree/cotton-embroidered-shirt-pret/4.webp",
+          "catalog/beechtree/cotton-embroidered-shirt-pret/5.png"
+        ],
+        "details": {
+          "name": "Cotton Embroidered Shirt-Pret",
+          "price": "$24.00",
+          "brand": "Beechtree",
+          "description": "Boat Neck With Front Neckline Embroidery and Embroidery on Panels and Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/222-2/",
+          "color": "Yellow",
+          "fabric": "Cotton",
+          "fit": "Loose Fit",
+          "old_site_slug": "222-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-cotton-net-shirt-luxury-pret",
+        "path": "catalog/beechtree/embroidered-cotton-net-shirt-luxury-pret",
+        "images": [
+          "catalog/beechtree/embroidered-cotton-net-shirt-luxury-pret/1.png",
+          "catalog/beechtree/embroidered-cotton-net-shirt-luxury-pret/2.png",
+          "catalog/beechtree/embroidered-cotton-net-shirt-luxury-pret/3.png",
+          "catalog/beechtree/embroidered-cotton-net-shirt-luxury-pret/4.png",
+          "catalog/beechtree/embroidered-cotton-net-shirt-luxury-pret/5.png"
+        ],
+        "details": {
+          "name": "EMBROIDERED COTTON NET SHIRT (LUXURY PRET)",
+          "price": "$33.00",
+          "brand": "Beechtree",
+          "description": "1Pc Embroidered Shirt with Panels and Embroidered Borders on Hem and Sleeves and Contrasting Lace Finishings.",
+          "source": "https://asiantreasures.wordpress.com/2112-2/",
+          "color": "Purple",
+          "fabric": "Cotton Net",
+          "fit": "Regular Fit",
+          "old_site_slug": "2112-2",
+          "size": "S (10)",
+          "what_you_ll_get": "Shirt+ attached Slip"
+        }
+      },
+      {
+        "slug": "embroidered-jacquard-shirt-luxury-pret",
+        "path": "catalog/beechtree/embroidered-jacquard-shirt-luxury-pret",
+        "images": [
+          "catalog/beechtree/embroidered-jacquard-shirt-luxury-pret/1.png",
+          "catalog/beechtree/embroidered-jacquard-shirt-luxury-pret/2.png",
+          "catalog/beechtree/embroidered-jacquard-shirt-luxury-pret/3.png",
+          "catalog/beechtree/embroidered-jacquard-shirt-luxury-pret/4.png",
+          "catalog/beechtree/embroidered-jacquard-shirt-luxury-pret/5.png"
+        ],
+        "details": {
+          "name": "EMBROIDERED JACQUARD SHIRT (LUXURY PRET)",
+          "price": "$33.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Shirt with Round Neckline and Slit with Placket and Button Detail Long Self Jacquard Shirt with Composed Floral Embroidery on Front Finished with Hand Work Detail on Neckline. Lace Detail on Shirt Neckline, Border on Hem and Sleeves. Composed Embroidered Sleeve Cuff. Loop Button Detail on Back",
+          "source": "https://asiantreasures.wordpress.com/2020-2/",
+          "color": "Peach",
+          "fabric": "Jacquard",
+          "fit": "Special Fit",
+          "old_site_slug": "2020-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt+ attached Slip"
+        }
+      },
+      {
+        "slug": "embroidered-pret",
+        "path": "catalog/beechtree/embroidered-pret",
+        "images": [
+          "catalog/beechtree/embroidered-pret/1.webp",
+          "catalog/beechtree/embroidered-pret/2.webp",
+          "catalog/beechtree/embroidered-pret/3.webp",
+          "catalog/beechtree/embroidered-pret/4.webp",
+          "catalog/beechtree/embroidered-pret/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Pret",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Band Neck with Embroidered Placket. Full Embroidered Front.",
+          "source": "https://asiantreasures.wordpress.com/154-2/",
+          "color": "Green",
+          "fabric": "Multi Neps",
+          "fit": "Loose Fit",
+          "old_site_slug": "154-2",
+          "size": "M (12), L (14) sold",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-pret-2",
+        "path": "catalog/beechtree/embroidered-pret-2",
+        "images": [
+          "catalog/beechtree/embroidered-pret-2/1.webp",
+          "catalog/beechtree/embroidered-pret-2/2.webp",
+          "catalog/beechtree/embroidered-pret-2/3.webp",
+          "catalog/beechtree/embroidered-pret-2/4.webp",
+          "catalog/beechtree/embroidered-pret-2/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Pret",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Basic Embroidered Shirt with A Band Collar Having Tassel Detail on It.",
+          "source": "https://asiantreasures.wordpress.com/144-2/",
+          "color": "Pistachio",
+          "fabric": "Viscose",
+          "fit": "Loose Fit",
+          "old_site_slug": "144-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-pret-3",
+        "path": "catalog/beechtree/embroidered-pret-3",
+        "images": [
+          "catalog/beechtree/embroidered-pret-3/1.webp",
+          "catalog/beechtree/embroidered-pret-3/2.webp",
+          "catalog/beechtree/embroidered-pret-3/3.webp",
+          "catalog/beechtree/embroidered-pret-3/4.webp",
+          "catalog/beechtree/embroidered-pret-3/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Pret",
+          "price": "$24.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Kurta with Band Neckline and Slit. Embroidered Border on Sleeves. Round Hem.",
+          "source": "https://asiantreasures.wordpress.com/142-2/",
+          "color": "Yellow",
+          "fabric": "Missouri Lawn",
+          "fit": "Regular Fit",
+          "old_site_slug": "142-2",
+          "size": "M (12), L (14)sold",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-pret-sold",
+        "path": "catalog/beechtree/embroidered-pret-sold",
+        "images": [
+          "catalog/beechtree/embroidered-pret-sold/1.webp",
+          "catalog/beechtree/embroidered-pret-sold/2.webp",
+          "catalog/beechtree/embroidered-pret-sold/3.webp",
+          "catalog/beechtree/embroidered-pret-sold/4.webp",
+          "catalog/beechtree/embroidered-pret-sold/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Pret sold",
+          "price": "$22.00",
+          "brand": "Beechtree",
+          "description": "Basic Shirt with A Band Collar Having Lace Details on Neckline, Border and Slits Along with Embroidery on Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/580-2/",
+          "color": "Maroon",
+          "fabric": "Naps",
+          "fit": "Loose Fit",
+          "old_site_slug": "580-2",
+          "size": "L (14) sold",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret",
+        "path": "catalog/beechtree/embroidered-shirt-pret",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret/1.jpg",
+          "catalog/beechtree/embroidered-shirt-pret/2.jpg",
+          "catalog/beechtree/embroidered-shirt-pret/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$24.00",
+          "brand": "Beechtree",
+          "description": "Round Neckline with Slit, Embroidered\u2002Sleeves end.",
+          "source": "https://asiantreasures.wordpress.com/2006-2/",
+          "color": "off White",
+          "fabric": "Khaddar",
+          "fit": "Regular Fit",
+          "old_site_slug": "2006-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-10",
+        "path": "catalog/beechtree/embroidered-shirt-pret-10",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-10/1.webp",
+          "catalog/beechtree/embroidered-shirt-pret-10/2.webp",
+          "catalog/beechtree/embroidered-shirt-pret-10/3.webp",
+          "catalog/beechtree/embroidered-shirt-pret-10/4.webp",
+          "catalog/beechtree/embroidered-shirt-pret-10/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Basic Overlap Band Neckline with Embroidered Front and Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/578-2/",
+          "color": "Peach",
+          "fabric": "Yarn Dyed",
+          "fit": "Loose Fit",
+          "old_site_slug": "578-2",
+          "size": "M (12), L (14) sold",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-11",
+        "path": "catalog/beechtree/embroidered-shirt-pret-11",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-11/1.webp",
+          "catalog/beechtree/embroidered-shirt-pret-11/2.webp",
+          "catalog/beechtree/embroidered-shirt-pret-11/3.webp",
+          "catalog/beechtree/embroidered-shirt-pret-11/4.webp",
+          "catalog/beechtree/embroidered-shirt-pret-11/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$24.00",
+          "brand": "Beechtree",
+          "description": "Basic Shirt Collar Tunic with Embroidered Front Placket and Boder on Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/166-2/",
+          "fabric": "Flannel",
+          "fit": "Special Fit",
+          "old_site_slug": "166-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-12",
+        "path": "catalog/beechtree/embroidered-shirt-pret-12",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-12/1.jpg",
+          "catalog/beechtree/embroidered-shirt-pret-12/2.jpg",
+          "catalog/beechtree/embroidered-shirt-pret-12/3.webp",
+          "catalog/beechtree/embroidered-shirt-pret-12/4.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Band Neckline with Full Front Floral Embroidery. Piping Details on Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/162-2/",
+          "color": "Pistachio",
+          "fabric": "Viscose",
+          "fit": "Loose Fit",
+          "old_site_slug": "162-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-13",
+        "path": "catalog/beechtree/embroidered-shirt-pret-13",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-13/1.webp",
+          "catalog/beechtree/embroidered-shirt-pret-13/2.webp",
+          "catalog/beechtree/embroidered-shirt-pret-13/3.webp",
+          "catalog/beechtree/embroidered-shirt-pret-13/4.webp",
+          "catalog/beechtree/embroidered-shirt-pret-13/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Loose Fit Embroidered Kurta with Pani Work and Tassel Detail on Neckline.",
+          "source": "https://asiantreasures.wordpress.com/146-2/",
+          "color": "Shocking Pink",
+          "fabric": "Textured",
+          "fit": "Loose Fit",
+          "old_site_slug": "146-2",
+          "size": "M (12), L (14) sold",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-2",
+        "path": "catalog/beechtree/embroidered-shirt-pret-2",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-2/1.jpg",
+          "catalog/beechtree/embroidered-shirt-pret-2/2.jpg",
+          "catalog/beechtree/embroidered-shirt-pret-2/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Neckline with Slit, Embroidered Front with intricate border Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/1651-2/",
+          "color": "Maroon",
+          "fabric": "Slub Khaddar",
+          "fit": "Loose Fit",
+          "old_site_slug": "1651-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-3",
+        "path": "catalog/beechtree/embroidered-shirt-pret-3",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-3/1.png",
+          "catalog/beechtree/embroidered-shirt-pret-3/2.png",
+          "catalog/beechtree/embroidered-shirt-pret-3/3.png",
+          "catalog/beechtree/embroidered-shirt-pret-3/4.png",
+          "catalog/beechtree/embroidered-shirt-pret-3/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$28.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Panel Shirt with Intricate Embroidery Together with Sequence and Tilla Finished with Lace and Handwork Details.",
+          "source": "https://asiantreasures.wordpress.com/1610-2/",
+          "color": "Blue",
+          "fabric": "Viscose",
+          "fit": "Regular Fit",
+          "old_site_slug": "1610-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-4",
+        "path": "catalog/beechtree/embroidered-shirt-pret-4",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-4/1.png",
+          "catalog/beechtree/embroidered-shirt-pret-4/2.png",
+          "catalog/beechtree/embroidered-shirt-pret-4/3.png",
+          "catalog/beechtree/embroidered-shirt-pret-4/4.png",
+          "catalog/beechtree/embroidered-shirt-pret-4/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Band Neckline with Slit, Embroidered Front & Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/1561-2/",
+          "color": "Mauve",
+          "fabric": "Slub Khaddar",
+          "fit": "Loose Fit",
+          "old_site_slug": "1561-2",
+          "size": "M (12), L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-5",
+        "path": "catalog/beechtree/embroidered-shirt-pret-5",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-5/1.png",
+          "catalog/beechtree/embroidered-shirt-pret-5/2.png",
+          "catalog/beechtree/embroidered-shirt-pret-5/3.png",
+          "catalog/beechtree/embroidered-shirt-pret-5/4.png",
+          "catalog/beechtree/embroidered-shirt-pret-5/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$32.00",
+          "brand": "Beechtree",
+          "description": "Composed Panel Embroidered Shirt with Handwork Detail on Neckline and Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/1515-2/",
+          "color": "Peach",
+          "fabric": "Slub Lawn",
+          "fit": "Regular Fit",
+          "old_site_slug": "1515-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-6",
+        "path": "catalog/beechtree/embroidered-shirt-pret-6",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-6/1.png",
+          "catalog/beechtree/embroidered-shirt-pret-6/2.png",
+          "catalog/beechtree/embroidered-shirt-pret-6/3.png",
+          "catalog/beechtree/embroidered-shirt-pret-6/4.png",
+          "catalog/beechtree/embroidered-shirt-pret-6/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Kurta with Boat Neck. Button Details on Front. 3Q Sleeves with Slit. Round Hem.",
+          "source": "https://asiantreasures.wordpress.com/1482-2/",
+          "color": "Tea Pink",
+          "fabric": "Neps Missouri",
+          "fit": "Loose Fit",
+          "old_site_slug": "1482-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-7",
+        "path": "catalog/beechtree/embroidered-shirt-pret-7",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-7/1.png",
+          "catalog/beechtree/embroidered-shirt-pret-7/2.png",
+          "catalog/beechtree/embroidered-shirt-pret-7/3.png",
+          "catalog/beechtree/embroidered-shirt-pret-7/4.png",
+          "catalog/beechtree/embroidered-shirt-pret-7/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Basic Band Neckline with Embroidered Front and Sleeves in Pastel Hues. Hand Embellished Detail on Neckline.",
+          "source": "https://asiantreasures.wordpress.com/1480-2/",
+          "color": "Light Blue",
+          "fabric": "Multi Neps",
+          "fit": "Loose Fit",
+          "old_site_slug": "1480-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-8",
+        "path": "catalog/beechtree/embroidered-shirt-pret-8",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-8/1.png",
+          "catalog/beechtree/embroidered-shirt-pret-8/2.png",
+          "catalog/beechtree/embroidered-shirt-pret-8/3.png",
+          "catalog/beechtree/embroidered-shirt-pret-8/4.png",
+          "catalog/beechtree/embroidered-shirt-pret-8/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$20.00",
+          "brand": "Beechtree",
+          "description": "Basic shirt with embroidered V-neckline with lace insert on center front, embroidery on hem, and pleated border with handwork and embroidery on sleeves with lace insert.",
+          "source": "https://asiantreasures.wordpress.com/1311-2/",
+          "color": "White",
+          "fabric": "Yarn Dyed",
+          "fit": "Loose Fit",
+          "old_site_slug": "1311-2",
+          "size": "?",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-9",
+        "path": "catalog/beechtree/embroidered-shirt-pret-9",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-9/1.webp",
+          "catalog/beechtree/embroidered-shirt-pret-9/2.webp",
+          "catalog/beechtree/embroidered-shirt-pret-9/3.webp",
+          "catalog/beechtree/embroidered-shirt-pret-9/4.png"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$22.00",
+          "brand": "Beechtree",
+          "description": "Basic Shirt Collar Long Tunic with Embroidered Front. Hand Embellished Detail on Placket.",
+          "source": "https://asiantreasures.wordpress.com/584-2/",
+          "color": "Dark Pink",
+          "fabric": "Chambray",
+          "fit": "Special Fit",
+          "old_site_slug": "584-2",
+          "size": "S (10)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-black",
+        "path": "catalog/beechtree/embroidered-shirt-pret-black",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-black/1.jpg",
+          "catalog/beechtree/embroidered-shirt-pret-black/2.jpg",
+          "catalog/beechtree/embroidered-shirt-pret-black/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret? black",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Band Neckline with Slit, Embroidered Front & Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/2008-2/",
+          "color": "Maroon",
+          "fabric": "Slub Khaddar",
+          "fit": "Loose Fit",
+          "old_site_slug": "2008-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-purple",
+        "path": "catalog/beechtree/embroidered-shirt-pret-purple",
+        "images": [
+          "catalog/beechtree/embroidered-shirt-pret-purple/1.jpg",
+          "catalog/beechtree/embroidered-shirt-pret-purple/2.jpg",
+          "catalog/beechtree/embroidered-shirt-pret-purple/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret? purple",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Band Neckline with Slit, Embroidered Front & Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/2010-2/",
+          "color": "Maroon",
+          "fabric": "Slub Khaddar",
+          "fit": "Loose Fit",
+          "old_site_slug": "2010-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "jacquard-shirt-pret",
+        "path": "catalog/beechtree/jacquard-shirt-pret",
+        "images": [
+          "catalog/beechtree/jacquard-shirt-pret/1.png",
+          "catalog/beechtree/jacquard-shirt-pret/2.png",
+          "catalog/beechtree/jacquard-shirt-pret/3.png",
+          "catalog/beechtree/jacquard-shirt-pret/4.png",
+          "catalog/beechtree/jacquard-shirt-pret/5.png"
+        ],
+        "details": {
+          "name": "Jacquard Shirt-Pret",
+          "price": "$18.00",
+          "brand": "Beechtree",
+          "description": "Loose Fit Kurta with Trendy Lace Finishing on Sleeves and Neckline.",
+          "source": "https://asiantreasures.wordpress.com/984-2/",
+          "color": "Lavender",
+          "fabric": "Jacquard",
+          "fit": "Loose Fit",
+          "old_site_slug": "984-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "karandi-embroidered-shirt-pret",
+        "path": "catalog/beechtree/karandi-embroidered-shirt-pret",
+        "images": [
+          "catalog/beechtree/karandi-embroidered-shirt-pret/1.webp",
+          "catalog/beechtree/karandi-embroidered-shirt-pret/2.webp",
+          "catalog/beechtree/karandi-embroidered-shirt-pret/3.webp",
+          "catalog/beechtree/karandi-embroidered-shirt-pret/4.webp",
+          "catalog/beechtree/karandi-embroidered-shirt-pret/5.png"
+        ],
+        "details": {
+          "name": "Karandi Embroidered Shirt-Pret",
+          "price": "$28.00",
+          "brand": "Beechtree",
+          "description": "Contemporary Embroidered Shirt with Tilla and Sequence and Colorful Resham Details Finished with Handwork and Stitch Details.",
+          "source": "https://asiantreasures.wordpress.com/140-2/",
+          "color": "Blue",
+          "fabric": "Karandi",
+          "fit": "Regular Fit",
+          "old_site_slug": "140-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "khaddar-embroidered-shirt-pret",
+        "path": "catalog/beechtree/khaddar-embroidered-shirt-pret",
+        "images": [
+          "catalog/beechtree/khaddar-embroidered-shirt-pret/1.png",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret/2.png",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret/3.png",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret/4.png",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret/5.png"
+        ],
+        "details": {
+          "name": "Khaddar Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Basic Band Neckline with Fully Embroidered Front and Border on Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/1585-2/",
+          "color": "Black",
+          "fabric": "Khaddar",
+          "fit": "Loose Fit",
+          "old_site_slug": "1585-2",
+          "size": "M (12), L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "khaddar-embroidered-shirt-pret-2",
+        "path": "catalog/beechtree/khaddar-embroidered-shirt-pret-2",
+        "images": [
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-2/1.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-2/2.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-2/3.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-2/4.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-2/5.png"
+        ],
+        "details": {
+          "name": "Khaddar Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Basic Band Collar Neckline with Stitch Detail. Embroidered Shirt Finished with Lace Insert on Center Front.",
+          "source": "https://asiantreasures.wordpress.com/596-2/",
+          "color": "Peach",
+          "fabric": "Khaddar",
+          "fit": "Loose Fit",
+          "old_site_slug": "596-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "khaddar-embroidered-shirt-pret-3",
+        "path": "catalog/beechtree/khaddar-embroidered-shirt-pret-3",
+        "images": [
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-3/1.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-3/2.jpg",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-3/3.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-3/4.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-3/5.png"
+        ],
+        "details": {
+          "name": "Khaddar Embroidered Shirt-Pret",
+          "price": "$22.00",
+          "brand": "Beechtree",
+          "description": "Basic Embroidered Shirt with A Round Neckline Having Pleats on Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/576-2/",
+          "color": "Teal",
+          "fabric": "Khaddar",
+          "fit": "Loose Fit",
+          "old_site_slug": "576-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "khaddar-embroidered-shirt-pret-4",
+        "path": "catalog/beechtree/khaddar-embroidered-shirt-pret-4",
+        "images": [
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-4/1.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-4/2.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-4/3.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-4/4.webp",
+          "catalog/beechtree/khaddar-embroidered-shirt-pret-4/5.png"
+        ],
+        "details": {
+          "name": "Khaddar Embroidered Shirt-Pret",
+          "price": "$23.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Shirt with Boat Neckline and Placket. Accent Embroidered Detail on Sleeves and Placket. Straight Hem.",
+          "source": "https://asiantreasures.wordpress.com/574-2/",
+          "color": "Bright Pink",
+          "fabric": "Slub Khaddar",
+          "fit": "Loose Fit",
+          "old_site_slug": "574-2",
+          "size": "S (10), M(12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-pret",
+        "path": "catalog/beechtree/lawn-embroidered-pret",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-pret/1.jpg",
+          "catalog/beechtree/lawn-embroidered-pret/2.webp",
+          "catalog/beechtree/lawn-embroidered-pret/3.webp",
+          "catalog/beechtree/lawn-embroidered-pret/4.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Pret",
+          "price": "$28.00",
+          "brand": "Beechtree",
+          "description": "Full front embroidered shirt with contrast piping on sleeves.",
+          "source": "https://asiantreasures.wordpress.com/220-2/",
+          "color": "Baby Pink",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "220-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-pret-2",
+        "path": "catalog/beechtree/lawn-embroidered-pret-2",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-pret-2/1.jpg",
+          "catalog/beechtree/lawn-embroidered-pret-2/2.webp",
+          "catalog/beechtree/lawn-embroidered-pret-2/3.webp",
+          "catalog/beechtree/lawn-embroidered-pret-2/4.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Round Neckline with Full Embroidered Front.",
+          "source": "https://asiantreasures.wordpress.com/168-2/",
+          "color": "Lilac",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "168-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-pret-3",
+        "path": "catalog/beechtree/lawn-embroidered-pret-3",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-pret-3/1.webp",
+          "catalog/beechtree/lawn-embroidered-pret-3/2.webp",
+          "catalog/beechtree/lawn-embroidered-pret-3/3.webp",
+          "catalog/beechtree/lawn-embroidered-pret-3/4.webp",
+          "catalog/beechtree/lawn-embroidered-pret-3/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Pret",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Loose Fit Kurta with Pearl Details on Neckline.",
+          "source": "https://asiantreasures.wordpress.com/150-2/",
+          "color": "Peach",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "150-2",
+          "size": "M (12) sold, L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret/1.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret/2.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret/3.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret/4.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$28.00",
+          "brand": "Beechtree",
+          "description": "Fully Embroidered Shirt with Sequins and Scalloped Borders. Band Neckline with Placket. Pearl Detail on Front. Straight Hem.",
+          "source": "https://asiantreasures.wordpress.com/1517-2/",
+          "color": "White",
+          "fabric": "Lawn",
+          "fit": "Special Fit",
+          "old_site_slug": "1517-2",
+          "size": "S (10)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-10",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-10",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-10/1.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-10/2.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-10/3.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-10/4.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-10/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Kurta with V Neckline. Pearl Embellishment on Placket. Embroidered Sleeves with Sequins. Straight Hem.",
+          "source": "https://asiantreasures.wordpress.com/218-2/",
+          "color": "Bright Pink",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "218-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-11",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-11",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-11/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-11/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-11/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-11/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-11/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$28.00",
+          "brand": "Beechtree",
+          "description": "Basic Embroidered Shirt Having a V Neckline with Sequins Embellishment on It.",
+          "source": "https://asiantreasures.wordpress.com/215-2/",
+          "color": "Black",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "215-2",
+          "size": "S (10)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-12",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-12",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-12/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-12/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-12/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-12/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-12/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$27.00",
+          "brand": "Beechtree",
+          "description": "Basic Embroidered Shirt with Round Neckline and Lace Insert, And Embroidered Border on Sleeves with Lace Inserts.",
+          "source": "https://asiantreasures.wordpress.com/172-2/",
+          "color": "Pistachio",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "172-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-13",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-13",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-13/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-13/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-13/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-13/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-13/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Composed embroidered shirt with pastel embroidery pintucks detail on sleeves finished with lace edging.",
+          "source": "https://asiantreasures.wordpress.com/170-2/",
+          "color": "Peach",
+          "fabric": "Lawn",
+          "fit": "Regular Fit",
+          "old_site_slug": "170-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-14",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-14",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-14/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-14/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-14/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-14/4.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Basic Boat Neckline Tunic with Embroidered Front. Button Detail on Neckline",
+          "source": "https://asiantreasures.wordpress.com/164-2/",
+          "color": "Blue",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "164-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-15",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-15",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-15/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-15/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-15/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-15/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-15/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$28.00",
+          "brand": "Beechtree",
+          "description": "Fully Embroidered Kurta with Printed Sleeves. Placket With Button Detail. Straight Hem.",
+          "source": "https://asiantreasures.wordpress.com/148-2/",
+          "color": "Blue",
+          "fabric": "Lawn",
+          "fit": "Regular Fit",
+          "old_site_slug": "148-2",
+          "size": "M (12), L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-16",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-16",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-16/1.jpg",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-16/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-16/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-16/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-16/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$28.00",
+          "brand": "Beechtree",
+          "description": "Boat Neck Shirt with Embroidery Details on Sides and Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/135-2/",
+          "color": "Green",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "135-2",
+          "size": "M (12) sold, L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-2",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-2",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-2/1.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-2/2.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-2/3.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-2/4.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-2/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$24.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Loose Fit Kurta in Cross stich With V-neck and Hand details.",
+          "source": "https://asiantreasures.wordpress.com/1317-2/",
+          "color": "Lavender",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "1317-2",
+          "size": "M (12), L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-3",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-3",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-3/1.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-3/2.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-3/3.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-3/4.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$24.00",
+          "brand": "Beechtree",
+          "description": "Band Neckline Shirt with Embroidered Border on Front and Sleeves Finished with Lace Edging",
+          "source": "https://asiantreasures.wordpress.com/1315-2/",
+          "color": "Tea Pink",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "1315-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-4",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-4",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-4/1.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-4/2.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-4/3.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-4/4.png",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-4/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Overlap band neckline with fully embroidered front and sleeves finished with lace edging.",
+          "source": "https://asiantreasures.wordpress.com/1313-2/",
+          "color": "Black",
+          "fabric": "Lawn",
+          "fit": "Special Fit",
+          "old_site_slug": "1313-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-5",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-5",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-5/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-5/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-5/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-5/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-5/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Basic Embroidered Shirt with Round Neckline and Placket with Button Detail, Embroidery on Front with Stitches Detail Border on Sleeves and Frayed Edging Detail on Neckline and Side Slits.",
+          "source": "https://asiantreasures.wordpress.com/982-2/",
+          "color": "Bright Pink",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "982-2",
+          "size": "M (12), L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-6",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-6",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-6/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-6/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-6/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-6/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-6/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "A Line Composed Floral Embroidered Shirt with Schiffli Detail Lace Detail on Neckline and Lace with Loop Button Detail on Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/979-2/",
+          "color": "Peach",
+          "fabric": "Lawn",
+          "fit": "Special Fit",
+          "old_site_slug": "979-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-7",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-7",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-7/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-7/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-7/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-7/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-7/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$27.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Matching Separate with Tussle Detailing on The Neck and Heavy Embroidered Border. Basic Embroidered Shirt with Round Neckline and Placket with Handwork Buttons, Fully Embroidered Front with Lace Inserts on Panels, And Embroidered Border on Sleeves with Lace Inserts.",
+          "source": "https://asiantreasures.wordpress.com/592-2/",
+          "color": "Black",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "592-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-8",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-8",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-8/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-8/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-8/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-8/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-8/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Shirt with Boat Neck and Band with Stitching Detail. Embroidered Border on Sleeves. Straight Hem.",
+          "source": "https://asiantreasures.wordpress.com/588-2/",
+          "color": "Carolina Blue",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "588-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-9",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-9",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-9/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-9/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-9/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-9/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-9/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Kurta with Band and Slit. Lace Detail on Sleeves and Neckline. Pearl Detail on Neckline. Straight Hem.",
+          "source": "https://asiantreasures.wordpress.com/586-2/",
+          "color": "Peach",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "586-2",
+          "size": "L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-sold",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-sold",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret sold",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Matching Separate with Tussle Detailing on The Neck and Heavy Embroidered Border.",
+          "source": "https://asiantreasures.wordpress.com/594-2/",
+          "color": "Mustard",
+          "fabric": "Lawn",
+          "fit": "Regular Fit",
+          "old_site_slug": "594-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-sold-2",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-sold-2",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-2/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-2/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-2/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-2/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-2/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret sold",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Basic Embroidered Shirt Having a Round Neckline with Crystal Buttons on Front.",
+          "source": "https://asiantreasures.wordpress.com/160-2/",
+          "color": "Bright Pink",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "160-2",
+          "size": "S (10) sold",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-sold-3",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-sold-3",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-3/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-3/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-3/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-3/4.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret sold",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Kurta Embroidered Shirt with Handwork Detail on Neckline. Floral Embroidered Sleeves with Lace Finish.",
+          "source": "https://asiantreasures.wordpress.com/152-2/",
+          "color": "Pale Turquoise",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "152-2",
+          "size": "M (12) sold, L (14) sold",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lawn-embroidered-shirt-pret-sold-4",
+        "path": "catalog/beechtree/lawn-embroidered-shirt-pret-sold-4",
+        "images": [
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-4/1.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-4/2.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-4/3.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-4/4.webp",
+          "catalog/beechtree/lawn-embroidered-shirt-pret-sold-4/5.png"
+        ],
+        "details": {
+          "name": "Lawn Embroidered Shirt-Pret sold",
+          "price": "$26.00",
+          "brand": "Beechtree",
+          "description": "Embroidered Shirt with Round Neckline and Slit with Placket and Button Detail and Frayed Edges, And Embroidered Border on Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/128-2/",
+          "color": "Orange",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "128-2",
+          "size": "L (14) sold",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "printed-shirt-pret",
+        "path": "catalog/beechtree/printed-shirt-pret",
+        "images": [
+          "catalog/beechtree/printed-shirt-pret/1.jpg",
+          "catalog/beechtree/printed-shirt-pret/2.jpg",
+          "catalog/beechtree/printed-shirt-pret/3.jpg"
+        ],
+        "details": {
+          "name": "Printed Shirt-Pret",
+          "price": "$24.00",
+          "brand": "Beechtree",
+          "description": "A digital printed casual wear perfect for normal use.",
+          "source": "https://asiantreasures.wordpress.com/2094-2/",
+          "color": "Black",
+          "fabric": "Slub Khaddar",
+          "fit": "Loose Fit",
+          "old_site_slug": "2094-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "printed-shirt-pret-sold",
+        "path": "catalog/beechtree/printed-shirt-pret-sold",
+        "images": [
+          "catalog/beechtree/printed-shirt-pret-sold/1.webp",
+          "catalog/beechtree/printed-shirt-pret-sold/2.webp",
+          "catalog/beechtree/printed-shirt-pret-sold/3.webp",
+          "catalog/beechtree/printed-shirt-pret-sold/4.webp",
+          "catalog/beechtree/printed-shirt-pret-sold/5.png"
+        ],
+        "details": {
+          "name": "Printed Shirt-Pret Sold",
+          "price": "$24.00",
+          "brand": "Beechtree",
+          "description": "Screen printed kurta with lace detail on neckline and sleeves. Pearl tussle on front.",
+          "source": "https://asiantreasures.wordpress.com/590-2/",
+          "color": "Peach",
+          "fabric": "Viscose",
+          "fit": "Loose Fit",
+          "old_site_slug": "590-2",
+          "size": "S (10) sold",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "shirt-and-trouser-pret-sold",
+        "path": "catalog/beechtree/shirt-and-trouser-pret-sold",
+        "images": [
+          "catalog/beechtree/shirt-and-trouser-pret-sold/1.webp",
+          "catalog/beechtree/shirt-and-trouser-pret-sold/2.webp",
+          "catalog/beechtree/shirt-and-trouser-pret-sold/3.webp",
+          "catalog/beechtree/shirt-and-trouser-pret-sold/4.webp",
+          "catalog/beechtree/shirt-and-trouser-pret-sold/5.png"
+        ],
+        "details": {
+          "name": "Shirt and Trouser-Pret sold",
+          "price": "$27.00",
+          "brand": "Beechtree",
+          "description": "Loose Fit Dropped Shoulder Short Shirt, With Embroidered Sleeves along with a trouser to complete a look.",
+          "source": "https://asiantreasures.wordpress.com/582-2/",
+          "color": "Yellow",
+          "fabric": "Multi Neps",
+          "fit": "Loose Fit",
+          "old_site_slug": "582-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt+ Trouser"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "ethnic",
+    "name": "Ethnic",
+    "items": [
+      {
+        "slug": "embroidered-shirt-pret",
+        "path": "catalog/ethnic/embroidered-shirt-pret",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret/2.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "Golden tilla Embroidery on Neckline, Embroidered Front & Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/1983-2/",
+          "color": "Pink",
+          "fabric": "Khaddar",
+          "old_site_slug": "1983-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-10",
+        "path": "catalog/ethnic/embroidered-shirt-pret-10",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-10/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-10/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-10/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "Ban Neckline, Embroidered Sleeves and back patch makes it perfect for casual wear.",
+          "source": "https://asiantreasures.wordpress.com/1857-2/",
+          "color": "Sky Blue",
+          "fabric": "Khaddar",
+          "old_site_slug": "1857-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-11",
+        "path": "catalog/ethnic/embroidered-shirt-pret-11",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-11/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-11/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-11/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "Ban Neck with buttons, Embroidered Sleeves Along with front-Stripe Detail.",
+          "source": "https://asiantreasures.wordpress.com/1850-2/",
+          "color": "Bright Pink",
+          "fabric": "Khaddar",
+          "old_site_slug": "1850-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-12",
+        "path": "catalog/ethnic/embroidered-shirt-pret-12",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-12/1.png",
+          "catalog/ethnic/embroidered-shirt-pret-12/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-12/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "Round Neckline with heavy embroidery, Embroidered Sleeves borders.",
+          "source": "https://asiantreasures.wordpress.com/1848-2/",
+          "color": "Sky Blue",
+          "fabric": "Khaddar",
+          "old_site_slug": "1848-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-13",
+        "path": "catalog/ethnic/embroidered-shirt-pret-13",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-13/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-13/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-13/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "Basic shirt with Embroidered Sleeves and Pockets on both sides.",
+          "source": "https://asiantreasures.wordpress.com/1846-2/",
+          "color": "White",
+          "fabric": "Khaddar",
+          "old_site_slug": "1846-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-2",
+        "path": "catalog/ethnic/embroidered-shirt-pret-2",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-2/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-2/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-2/3.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-2/4.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "Round Neckline with button detail, Embroidered Front & Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/1981-2/",
+          "color": "White",
+          "fabric": "Khaddar",
+          "old_site_slug": "1981-2",
+          "size": "S (10)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-3",
+        "path": "catalog/ethnic/embroidered-shirt-pret-3",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-3/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-3/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-3/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret ?",
+          "price": "$20.00",
+          "brand": "Ethnic",
+          "description": "Round Neckline with intricate border, Embroidered Front & Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/1876-2/",
+          "old_site_slug": "1876-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-4",
+        "path": "catalog/ethnic/embroidered-shirt-pret-4",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-4/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-4/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-4/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "Round Neckline with intricate border, Loose Sleeves with poncho style makes it a perfect casual wear.",
+          "source": "https://asiantreasures.wordpress.com/1874-2/",
+          "color": "Black",
+          "fabric": "Khaddar",
+          "old_site_slug": "1874-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-5",
+        "path": "catalog/ethnic/embroidered-shirt-pret-5",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-5/1.png",
+          "catalog/ethnic/embroidered-shirt-pret-5/2.png",
+          "catalog/ethnic/embroidered-shirt-pret-5/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$27.00",
+          "brand": "Ethnic",
+          "description": "Ethnic design traditionally crafted Neckline with button detail and fully Embroidered Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/1867-2/",
+          "color": "Off White",
+          "fabric": "Khaddar",
+          "old_site_slug": "1867-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-6",
+        "path": "catalog/ethnic/embroidered-shirt-pret-6",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-6/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-6/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-6/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "A casual wear with Round Embroidered Neckline and Tussles, Embroidered Sleeves Border.",
+          "source": "https://asiantreasures.wordpress.com/1865-2/",
+          "color": "Blue",
+          "fabric": "Khaddar",
+          "old_site_slug": "1865-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-7",
+        "path": "catalog/ethnic/embroidered-shirt-pret-7",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-7/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-7/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-7/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "Round Neckline with intricate Embroidery. Full Embroidered Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/1863-2/",
+          "color": "Pink",
+          "fabric": "Khaddar",
+          "old_site_slug": "1863-2",
+          "size": "S (10), M (12) Sold",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-8",
+        "path": "catalog/ethnic/embroidered-shirt-pret-8",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-8/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-8/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-8/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "Ban Neckline with button detail, Embroidered Front & Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/1861-2/",
+          "color": "Brown",
+          "fabric": "Khaddar",
+          "old_site_slug": "1861-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret-9",
+        "path": "catalog/ethnic/embroidered-shirt-pret-9",
+        "images": [
+          "catalog/ethnic/embroidered-shirt-pret-9/1.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-9/2.jpg",
+          "catalog/ethnic/embroidered-shirt-pret-9/3.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$25.00",
+          "brand": "Ethnic",
+          "description": "Beautiful traditionally embroidered Neckline with intricate border and buttons, Embroidered Front & Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/1859-2/",
+          "color": "Off White",
+          "fabric": "Khaddar",
+          "old_site_slug": "1859-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-velvet-shirt-luxury-pret",
+        "path": "catalog/ethnic/embroidered-velvet-shirt-luxury-pret",
+        "images": [
+          "catalog/ethnic/embroidered-velvet-shirt-luxury-pret/1.jpg",
+          "catalog/ethnic/embroidered-velvet-shirt-luxury-pret/2.jpg",
+          "catalog/ethnic/embroidered-velvet-shirt-luxury-pret/3.jpg",
+          "catalog/ethnic/embroidered-velvet-shirt-luxury-pret/4.png"
+        ],
+        "details": {
+          "name": "Embroidered Velvet Shirt-Luxury Pret",
+          "price": "$32.00",
+          "brand": "Ethnic",
+          "description": "Round Neckline with intricate border, traditionally Embroidered Front & Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/1649-2/",
+          "color": "Teal",
+          "fabric": "Velvet",
+          "old_site_slug": "1649-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "embroidered-velvet-shirt-pret-1",
+        "path": "catalog/ethnic/embroidered-velvet-shirt-pret-1",
+        "images": [
+          "catalog/ethnic/embroidered-velvet-shirt-pret-1/1.jpg",
+          "catalog/ethnic/embroidered-velvet-shirt-pret-1/2.jpg",
+          "catalog/ethnic/embroidered-velvet-shirt-pret-1/3.jpg",
+          "catalog/ethnic/embroidered-velvet-shirt-pret-1/4.png"
+        ],
+        "details": {
+          "name": "Embroidered Velvet Shirt-Pret 1",
+          "price": "$30.00",
+          "brand": "Ethnic",
+          "description": "Round Neckline with intricate border, Embroidered Front & Sleeves Along with Top-Stitch Detail.",
+          "source": "https://asiantreasures.wordpress.com/1844-2/",
+          "color": "Teal",
+          "fabric": "Velvet",
+          "old_site_slug": "1844-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "limelight",
+    "name": "Limelight",
+    "items": [
+      {
+        "slug": "2-piece-velvet-dress-embroidered-luxury-pret",
+        "path": "catalog/limelight/2-piece-velvet-dress-embroidered-luxury-pret",
+        "images": [
+          "catalog/limelight/2-piece-velvet-dress-embroidered-luxury-pret/1.jpg",
+          "catalog/limelight/2-piece-velvet-dress-embroidered-luxury-pret/2.jpg",
+          "catalog/limelight/2-piece-velvet-dress-embroidered-luxury-pret/3.jpg",
+          "catalog/limelight/2-piece-velvet-dress-embroidered-luxury-pret/4.jpg"
+        ],
+        "details": {
+          "name": "2 Piece Velvet Dress-Embroidered (Luxury Pret)",
+          "price": "$75.00",
+          "brand": "Limelight",
+          "description": "Beautiful 2-piece velvet dress with golden tilla work on its shirt. Perfect for special occasions.",
+          "source": "https://asiantreasures.wordpress.com/nnn/",
+          "color": "Black",
+          "fabric": "Velvet",
+          "old_site_slug": "nnn",
+          "size": "S (10),\u2002M (12) Sold",
+          "what_you_ll_get": "Shirt+Trouser"
+        }
+      },
+      {
+        "slug": "embroidered-dress-pret",
+        "path": "catalog/limelight/embroidered-dress-pret",
+        "images": [
+          "catalog/limelight/embroidered-dress-pret/1.jpg",
+          "catalog/limelight/embroidered-dress-pret/2.jpg",
+          "catalog/limelight/embroidered-dress-pret/3.jpg",
+          "catalog/limelight/embroidered-dress-pret/4.jpg",
+          "catalog/limelight/embroidered-dress-pret/5.png"
+        ],
+        "details": {
+          "name": "Embroidered Dress-Pret",
+          "price": "$60.00",
+          "brand": "Limelight",
+          "description": "Round Neckline with buttons detail, Embroidered Front sides of shirt along with trouser and shawl makes it perfect for formal occasions.",
+          "source": "https://asiantreasures.wordpress.com/1645-2/",
+          "color": "Rustic",
+          "fabric": "Khaddar",
+          "fit": "Regular Fit",
+          "old_site_slug": "1645-2",
+          "size": "M (12)",
+          "what_you_ll_get": "Shirt+ Trouser+ Shawl"
+        }
+      },
+      {
+        "slug": "embroidered-shirt-pret",
+        "path": "catalog/limelight/embroidered-shirt-pret",
+        "images": [
+          "catalog/limelight/embroidered-shirt-pret/1.jpg",
+          "catalog/limelight/embroidered-shirt-pret/2.jpg",
+          "catalog/limelight/embroidered-shirt-pret/3.jpg",
+          "catalog/limelight/embroidered-shirt-pret/4.jpg"
+        ],
+        "details": {
+          "name": "Embroidered Shirt-Pret",
+          "price": "$20.00",
+          "brand": "Limelight",
+          "description": "A perfect casual wear with Round Neckline with button detail, Embroidered Sleeves border Along with back Embroidered patch.",
+          "source": "https://asiantreasures.wordpress.com/1979-2/",
+          "color": "Purple",
+          "fabric": "Khaddar",
+          "old_site_slug": "1979-2",
+          "size": "S (10), M (12)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "velvet-3-piece-dress-pret",
+        "path": "catalog/limelight/velvet-3-piece-dress-pret",
+        "images": [
+          "catalog/limelight/velvet-3-piece-dress-pret/1.jpg",
+          "catalog/limelight/velvet-3-piece-dress-pret/2.png",
+          "catalog/limelight/velvet-3-piece-dress-pret/3.png",
+          "catalog/limelight/velvet-3-piece-dress-pret/4.png"
+        ],
+        "details": {
+          "name": "Velvet 3 Piece Dress-Pret",
+          "price": "$80.00",
+          "brand": "Limelight",
+          "description": "Beautiful Tilla embroidery on the front and Sleeves.",
+          "source": "https://asiantreasures.wordpress.com/1647-2/",
+          "color": "Maroon",
+          "fabric": "Velvet",
+          "fit": "Loose Fit",
+          "old_site_slug": "1647-2",
+          "size": "M (12), L (14)",
+          "what_you_ll_get": "Shirt+ Trouser+ Dupatta"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "other",
+    "name": "Other",
+    "items": [
+      {
+        "slug": "2-piece-winter-cotton-suit-embroidered-pret",
+        "path": "catalog/other/2-piece-winter-cotton-suit-embroidered-pret",
+        "images": [
+          "catalog/other/2-piece-winter-cotton-suit-embroidered-pret/1.webp",
+          "catalog/other/2-piece-winter-cotton-suit-embroidered-pret/2.webp",
+          "catalog/other/2-piece-winter-cotton-suit-embroidered-pret/3.webp",
+          "catalog/other/2-piece-winter-cotton-suit-embroidered-pret/4.webp",
+          "catalog/other/2-piece-winter-cotton-suit-embroidered-pret/5.png"
+        ],
+        "details": {
+          "name": "2 Piece Winter Cotton Suit-Embroidered (Pret)",
+          "price": "$35.00",
+          "brand": "Other",
+          "source": "https://asiantreasures.wordpress.com/698-2/",
+          "color": "Dark Pink",
+          "fabric_dupatta": "Net",
+          "fabric_shirt": "Winter Cotton",
+          "old_site_slug": "698-2",
+          "size": "L",
+          "what_you_ll_get": "Shirt+Dupatta"
+        }
+      },
+      {
+        "slug": "beautiful-eastern-attire",
+        "path": "catalog/other/beautiful-eastern-attire",
+        "images": [
+          "catalog/other/beautiful-eastern-attire/1.webp",
+          "catalog/other/beautiful-eastern-attire/2.webp",
+          "catalog/other/beautiful-eastern-attire/3.webp",
+          "catalog/other/beautiful-eastern-attire/4.webp"
+        ],
+        "details": {
+          "name": "Beautiful Eastern Attire",
+          "price": "$25.00",
+          "brand": "Other",
+          "description": "Head out in this contemporary yet elegant teal hued shirt featuring beautiful embroidery on the front and delicate lace detailing. We ship worldwide with a flat shipping fee.",
+          "source": "https://asiantreasures.wordpress.com/917-2/",
+          "color": "Teal",
+          "cut": "Boxy",
+          "dupatta": "Not Included",
+          "fabric": "Slub",
+          "old_site_slug": "917-2",
+          "slip": "Not Included",
+          "trouser": "Not Included"
+        }
+      },
+      {
+        "slug": "lime",
+        "path": "catalog/other/lime",
+        "images": [
+          "catalog/other/lime/1.webp",
+          "catalog/other/lime/2.webp",
+          "catalog/other/lime/3.webp",
+          "catalog/other/lime/4.webp",
+          "catalog/other/lime/5.png"
+        ],
+        "details": {
+          "name": "Lime",
+          "price": "$23.00",
+          "brand": "Other",
+          "description": "Embroidered Loose Fit Kurta with Pearl Details on Neckline.",
+          "source": "https://asiantreasures.wordpress.com/708-2/",
+          "color": "Peach",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "708-2",
+          "size": "M (12), L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lime-2",
+        "path": "catalog/other/lime-2",
+        "images": [
+          "catalog/other/lime-2/1.webp",
+          "catalog/other/lime-2/2.webp",
+          "catalog/other/lime-2/3.webp",
+          "catalog/other/lime-2/4.webp",
+          "catalog/other/lime-2/5.png"
+        ],
+        "details": {
+          "name": "Lime",
+          "price": "$23.00",
+          "brand": "Other",
+          "description": "Embroidered Loose Fit Kurta with Pearl Details on Neckline.",
+          "source": "https://asiantreasures.wordpress.com/706-2/",
+          "color": "Peach",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "706-2",
+          "size": "M (12), L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "lime-3",
+        "path": "catalog/other/lime-3",
+        "images": [
+          "catalog/other/lime-3/1.webp",
+          "catalog/other/lime-3/2.webp",
+          "catalog/other/lime-3/3.webp",
+          "catalog/other/lime-3/4.webp",
+          "catalog/other/lime-3/5.png"
+        ],
+        "details": {
+          "name": "Lime",
+          "price": "$23.00",
+          "brand": "Other",
+          "description": "Embroidered Loose Fit Kurta with Pearl Details on Neckline.",
+          "source": "https://asiantreasures.wordpress.com/704-2/",
+          "color": "Peach",
+          "fabric": "Lawn",
+          "fit": "Loose Fit",
+          "old_site_slug": "704-2",
+          "size": "M (12), L (14)",
+          "what_you_ll_get": "Shirt"
+        }
+      },
+      {
+        "slug": "limelight-khaddar-shirt-embroidered-pret",
+        "path": "catalog/other/limelight-khaddar-shirt-embroidered-pret",
+        "images": [
+          "catalog/other/limelight-khaddar-shirt-embroidered-pret/1.webp",
+          "catalog/other/limelight-khaddar-shirt-embroidered-pret/2.webp",
+          "catalog/other/limelight-khaddar-shirt-embroidered-pret/3.webp",
+          "catalog/other/limelight-khaddar-shirt-embroidered-pret/4.webp",
+          "catalog/other/limelight-khaddar-shirt-embroidered-pret/5.png"
+        ],
+        "details": {
+          "name": "Limelight Khaddar Shirt-Embroidered (Pret)",
+          "price": "$20.00",
+          "brand": "Other",
+          "source": "https://asiantreasures.wordpress.com/700-2/",
+          "color": "Parrot Green",
+          "fabric": "Khaddar",
+          "old_site_slug": "700-2",
           "size": "M, L",
-          "color": "Blush rose",
-          "fabric": "Lawn cotton",
-          "pieces": "Shirt, trouser, dupatta",
-          "description": "A soft Pakistani lawn suit with airy floral print and a matching dupatta for daytime occasions."
+          "what_you_ll_get": "Shirt"
         }
-      }
-    ]
-  },
-  {
-    "slug": "jewelry",
-    "name": "Jewelry",
-    "items": [
+      },
       {
-        "slug": "kundan-earrings",
-        "path": "catalog/jewelry/kundan-earrings",
+        "slug": "yarn-dyed-shirt-embroidered-pret",
+        "path": "catalog/other/yarn-dyed-shirt-embroidered-pret",
         "images": [
-          "catalog/jewelry/kundan-earrings/1.png"
+          "catalog/other/yarn-dyed-shirt-embroidered-pret/1.webp",
+          "catalog/other/yarn-dyed-shirt-embroidered-pret/2.webp",
+          "catalog/other/yarn-dyed-shirt-embroidered-pret/3.webp",
+          "catalog/other/yarn-dyed-shirt-embroidered-pret/4.webp",
+          "catalog/other/yarn-dyed-shirt-embroidered-pret/5.png"
         ],
         "details": {
-          "name": "Kundan Pearl Earrings",
-          "price": "$36",
-          "color": "Gold and pearl",
-          "material": "Alloy, faux pearls, kundan stones",
-          "closure": "Push back",
-          "description": "Statement kundan earrings with pearl drops, made for mehndi nights, Eid outfits, and formal wear."
-        }
-      }
-    ]
-  },
-  {
-    "slug": "shoes",
-    "name": "Shoes",
-    "items": [
-      {
-        "slug": "gold-khussa",
-        "path": "catalog/shoes/gold-khussa",
-        "images": [
-          "catalog/shoes/gold-khussa/1.png"
-        ],
-        "details": {
-          "name": "Gold Mirror Work Khussa",
-          "price": "$48",
-          "size": "6, 7, 8, 9",
-          "color": "Antique gold",
-          "material": "Leather upper",
-          "work": "Mirror and dabka-inspired detailing",
-          "description": "Traditional khussa flats with warm gold shimmer, comfortable lining, and festive handwork detail."
+          "name": "Yarn Dyed Shirt-Embroidered (Pret)",
+          "price": "$20.00",
+          "brand": "Other",
+          "source": "https://asiantreasures.wordpress.com/702-2/",
+          "color": "Peach",
+          "fabric": "Yarn Dyed",
+          "old_site_slug": "702-2",
+          "size": "S, M",
+          "what_you_ll_get": "Shirt"
         }
       }
     ]

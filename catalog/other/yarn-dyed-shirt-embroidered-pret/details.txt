@@ -1,0 +1,9 @@
+name: Yarn Dyed Shirt-Embroidered (Pret)
+price: $20.00
+brand: Other
+source: https://asiantreasures.wordpress.com/702-2/
+color: Peach
+fabric: Yarn Dyed
+old_site_slug: 702-2
+size: S, M
+what_you_ll_get: Shirt

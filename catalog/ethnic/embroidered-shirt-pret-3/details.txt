@@ -1,0 +1,8 @@
+name: Embroidered Shirt-Pret ?
+price: $20.00
+brand: Ethnic
+description: Round Neckline with intricate border, Embroidered Front & Sleeves Along with Top-Stitch Detail.
+source: https://asiantreasures.wordpress.com/1876-2/
+old_site_slug: 1876-2
+size: S (10), M (12)
+what_you_ll_get: Shirt

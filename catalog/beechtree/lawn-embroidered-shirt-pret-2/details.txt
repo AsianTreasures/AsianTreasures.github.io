@@ -1,0 +1,11 @@
+name: Lawn Embroidered Shirt-Pret
+price: $24.00
+brand: Beechtree
+description: Embroidered Loose Fit Kurta in Cross stich With V-neck and Hand details.
+source: https://asiantreasures.wordpress.com/1317-2/
+color: Lavender
+fabric: Lawn
+fit: Loose Fit
+old_site_slug: 1317-2
+size: M (12), L (14)
+what_you_ll_get: Shirt

@@ -1,0 +1,10 @@
+name: Embroidered Velvet Shirt-Luxury Pret
+price: $32.00
+brand: Ethnic
+description: Round Neckline with intricate border, traditionally Embroidered Front & Sleeves Along with Top-Stitch Detail.
+source: https://asiantreasures.wordpress.com/1649-2/
+color: Teal
+fabric: Velvet
+old_site_slug: 1649-2
+size: S (10), M (12)
+what_you_ll_get: Shirt

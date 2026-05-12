@@ -1,0 +1,11 @@
+name: Khaddar Embroidered Shirt-Pret
+price: $25.00
+brand: Beechtree
+description: Basic Band Collar Neckline with Stitch Detail. Embroidered Shirt Finished with Lace Insert on Center Front.
+source: https://asiantreasures.wordpress.com/596-2/
+color: Peach
+fabric: Khaddar
+fit: Loose Fit
+old_site_slug: 596-2
+size: M (12)
+what_you_ll_get: Shirt

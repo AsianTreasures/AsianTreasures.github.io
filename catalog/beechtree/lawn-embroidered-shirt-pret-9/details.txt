@@ -1,0 +1,11 @@
+name: Lawn Embroidered Shirt-Pret
+price: $26.00
+brand: Beechtree
+description: Embroidered Kurta with Band and Slit. Lace Detail on Sleeves and Neckline. Pearl Detail on Neckline. Straight Hem.
+source: https://asiantreasures.wordpress.com/586-2/
+color: Peach
+fabric: Lawn
+fit: Loose Fit
+old_site_slug: 586-2
+size: L (14)
+what_you_ll_get: Shirt

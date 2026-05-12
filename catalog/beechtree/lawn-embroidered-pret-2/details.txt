@@ -1,0 +1,11 @@
+name: Lawn Embroidered Pret
+price: $25.00
+brand: Beechtree
+description: Round Neckline with Full Embroidered Front.
+source: https://asiantreasures.wordpress.com/168-2/
+color: Lilac
+fabric: Lawn
+fit: Loose Fit
+old_site_slug: 168-2
+size: L (14)
+what_you_ll_get: Shirt

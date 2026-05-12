@@ -1,0 +1,11 @@
+name: Lawn Embroidered Pret
+price: $26.00
+brand: Beechtree
+description: Embroidered Loose Fit Kurta with Pearl Details on Neckline.
+source: https://asiantreasures.wordpress.com/150-2/
+color: Peach
+fabric: Lawn
+fit: Loose Fit
+old_site_slug: 150-2
+size: M (12) sold, L (14)
+what_you_ll_get: Shirt

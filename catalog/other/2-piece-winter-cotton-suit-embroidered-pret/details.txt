@@ -1,0 +1,10 @@
+name: 2 Piece Winter Cotton Suit-Embroidered (Pret)
+price: $35.00
+brand: Other
+source: https://asiantreasures.wordpress.com/698-2/
+color: Dark Pink
+fabric_dupatta: Net
+fabric_shirt: Winter Cotton
+old_site_slug: 698-2
+size: L
+what_you_ll_get: Shirt+Dupatta

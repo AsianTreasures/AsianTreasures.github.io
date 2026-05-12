@@ -1,0 +1,11 @@
+name: Khaddar Embroidered Shirt-Pret
+price: $25.00
+brand: Beechtree
+description: Basic Band Neckline with Fully Embroidered Front and Border on Sleeves.
+source: https://asiantreasures.wordpress.com/1585-2/
+color: Black
+fabric: Khaddar
+fit: Loose Fit
+old_site_slug: 1585-2
+size: M (12), L (14)
+what_you_ll_get: Shirt

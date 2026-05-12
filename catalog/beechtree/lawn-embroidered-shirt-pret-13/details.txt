@@ -1,0 +1,11 @@
+name: Lawn Embroidered Shirt-Pret
+price: $26.00
+brand: Beechtree
+description: Composed embroidered shirt with pastel embroidery pintucks detail on sleeves finished with lace edging.
+source: https://asiantreasures.wordpress.com/170-2/
+color: Peach
+fabric: Lawn
+fit: Regular Fit
+old_site_slug: 170-2
+size: L (14)
+what_you_ll_get: Shirt

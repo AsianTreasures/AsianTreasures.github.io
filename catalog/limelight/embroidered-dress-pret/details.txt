@@ -1,0 +1,11 @@
+name: Embroidered Dress-Pret
+price: $60.00
+brand: Limelight
+description: Round Neckline with buttons detail, Embroidered Front sides of shirt along with trouser and shawl makes it perfect for formal occasions.
+source: https://asiantreasures.wordpress.com/1645-2/
+color: Rustic
+fabric: Khaddar
+fit: Regular Fit
+old_site_slug: 1645-2
+size: M (12)
+what_you_ll_get: Shirt+ Trouser+ Shawl

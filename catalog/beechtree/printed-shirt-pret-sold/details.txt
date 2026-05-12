@@ -1,0 +1,11 @@
+name: Printed Shirt-Pret Sold
+price: $24.00
+brand: Beechtree
+description: Screen printed kurta with lace detail on neckline and sleeves. Pearl tussle on front.
+source: https://asiantreasures.wordpress.com/590-2/
+color: Peach
+fabric: Viscose
+fit: Loose Fit
+old_site_slug: 590-2
+size: S (10) sold
+what_you_ll_get: Shirt

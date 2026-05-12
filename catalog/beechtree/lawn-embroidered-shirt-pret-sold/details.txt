@@ -1,0 +1,11 @@
+name: Lawn Embroidered Shirt-Pret sold
+price: $26.00
+brand: Beechtree
+description: Embroidered Matching Separate with Tussle Detailing on The Neck and Heavy Embroidered Border.
+source: https://asiantreasures.wordpress.com/594-2/
+color: Mustard
+fabric: Lawn
+fit: Regular Fit
+old_site_slug: 594-2
+size: M (12)
+what_you_ll_get: Shirt

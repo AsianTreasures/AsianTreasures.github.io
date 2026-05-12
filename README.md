@@ -59,6 +59,23 @@ This updates `catalog.json`, which the static website reads in the browser.
 
 New folders will not appear on the live site until `catalog.json` is regenerated, committed, and pushed.
 
+## Old WordPress Import
+
+The old WordPress site crawl is preserved in `Old_Website/`.
+
+- `Old_Website/manifest.json` lists the crawled pages and downloaded images.
+- `Old_Website/pages/` contains saved page HTML.
+- `Old_Website/images/` contains downloaded WordPress images.
+- `Old_Website/import_summary.json` lists the products imported into `catalog/`.
+
+Importer scripts:
+
+```bash
+python3 scripts/crawl_old_website.py
+python3 scripts/import_old_website_catalog.py --clean
+python3 scripts/build_catalog.py
+```
+
 ## GitHub Pages
 
 Push this repository to GitHub, then enable Pages from the repository settings. Use:

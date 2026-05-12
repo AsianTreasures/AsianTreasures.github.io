@@ -1,0 +1,10 @@
+name: Embroidered Shirt-Pret
+price: $24.00
+brand: Beechtree
+description: Basic Shirt Collar Tunic with Embroidered Front Placket and Boder on Sleeves.
+source: https://asiantreasures.wordpress.com/166-2/
+fabric: Flannel
+fit: Special Fit
+old_site_slug: 166-2
+size: L (14)
+what_you_ll_get: Shirt

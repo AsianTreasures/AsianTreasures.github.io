@@ -1,0 +1,11 @@
+name: Embroidered Shirt-Pret
+price: $22.00
+brand: Beechtree
+description: Basic Shirt Collar Long Tunic with Embroidered Front. Hand Embellished Detail on Placket.
+source: https://asiantreasures.wordpress.com/584-2/
+color: Dark Pink
+fabric: Chambray
+fit: Special Fit
+old_site_slug: 584-2
+size: S (10)
+what_you_ll_get: Shirt

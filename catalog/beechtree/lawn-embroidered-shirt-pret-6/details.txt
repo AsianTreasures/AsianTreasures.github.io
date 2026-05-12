@@ -1,0 +1,11 @@
+name: Lawn Embroidered Shirt-Pret
+price: $26.00
+brand: Beechtree
+description: A Line Composed Floral Embroidered Shirt with Schiffli Detail Lace Detail on Neckline and Lace with Loop Button Detail on Sleeves.
+source: https://asiantreasures.wordpress.com/979-2/
+color: Peach
+fabric: Lawn
+fit: Special Fit
+old_site_slug: 979-2
+size: M (12)
+what_you_ll_get: Shirt
