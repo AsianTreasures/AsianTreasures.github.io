@@ -527,7 +527,7 @@ select {
   .nav {
     align-items: center;
     gap: 18px;
-    padding: 14px 14px 14px 0;
+    padding: 14px;
   }
 
   .brand {
@@ -539,9 +539,9 @@ select {
   }
 
   .brand-logo {
-    height: 108px;
-    transform: translate(-18px, 10px);
-    width: min(430px, 72vw);
+    height: 96px;
+    transform: translateY(10px);
+    width: min(340px, 58vw);
   }
 
   .nav-actions {
@@ -619,6 +619,12 @@ select {
   .nav {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .brand-logo {
+    height: 92px;
+    transform: translateY(8px);
+    width: min(330px, 92vw);
   }
 
   .brand span:last-child {
