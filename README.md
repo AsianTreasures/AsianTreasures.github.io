@@ -5,7 +5,7 @@
 ![Catalog](https://img.shields.io/badge/catalog-file%20based-b45309)
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
 
-Asian Treasures is a lightweight static storefront for running a simple online catalog directly from GitHub. It is designed for small shops, pop-up sellers, boutiques, and personal collections that need a clean product gallery without paying for hosting, maintaining a backend, or managing a full ecommerce platform.
+Asian Treasures is a repo for making a very simple online shop on GitHub for free. It is a lightweight static storefront for small shops, pop-up sellers, boutiques, and personal collections that need a clean product gallery without paying for hosting, maintaining a backend, or managing a full ecommerce platform.
 
 The store runs on plain HTML, CSS, JavaScript, product images, and a generated `catalog.json` file. Publish it with GitHub Pages and customers can browse products, open item details, and contact the seller through WhatsApp or another configured method.
 
