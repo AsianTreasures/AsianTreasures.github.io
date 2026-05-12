@@ -256,7 +256,9 @@ select {
 
 .product-card img {
   aspect-ratio: 4 / 5;
-  object-fit: cover;
+  background: #f7efe6;
+  object-fit: contain;
+  padding: 8px;
   width: 100%;
 }
 
@@ -370,10 +372,12 @@ select {
 
 #dialog-image {
   aspect-ratio: 4 / 5;
+  background: #f7efe6;
   height: auto;
   max-height: calc(100vh - 28px);
   max-height: calc(100svh - 28px);
-  object-fit: cover;
+  object-fit: contain;
+  padding: 10px;
   width: 100%;
 }
 
@@ -397,9 +401,11 @@ select {
 
 .thumb-row img {
   aspect-ratio: 1;
+  background: #f7efe6;
   border-radius: 6px;
   height: 62px;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 3px;
   width: 62px;
 }
 
