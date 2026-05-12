@@ -161,7 +161,6 @@ main {
 
 .section-head h2,
 .shipping-calculator h2,
-.policy-band h2,
 .flow-band h2,
 .contact-band h2 {
   font-size: clamp(2rem, 4vw, 3.2rem);
@@ -450,26 +449,6 @@ select {
   margin: 0;
 }
 
-.policy-band {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  margin-top: 20px;
-  padding: 28px 32px;
-}
-
-.policy-band h2 {
-  font-family: "Playfair Display", Georgia, serif;
-  margin: 0;
-}
-
-.policy-band p:not(.eyebrow) {
-  color: var(--muted);
-  font-weight: 700;
-  line-height: 1.7;
-  margin: 14px 0 0;
-}
-
 .flow-band {
   background: var(--surface);
   border: 1px solid var(--line);
@@ -506,14 +485,22 @@ select {
   margin: 0 0 14px;
 }
 
-.flow-card ol {
+.flow-card ol,
+.flow-card p {
   color: var(--muted);
-  display: grid;
   font-weight: 700;
-  gap: 10px;
   line-height: 1.55;
   margin: 0;
+}
+
+.flow-card ol {
+  display: grid;
+  gap: 10px;
   padding-left: 22px;
+}
+
+.flow-card-wide {
+  grid-column: 1 / -1;
 }
 
 .product-dialog {
@@ -782,10 +769,6 @@ select {
   }
 
   .shipping-calculator {
-    padding: 24px 18px;
-  }
-
-  .policy-band {
     padding: 24px 18px;
   }
 
