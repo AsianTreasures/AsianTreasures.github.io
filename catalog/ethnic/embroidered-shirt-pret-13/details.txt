@@ -2,9 +2,7 @@ name: Embroidered Shirt-Pret
 price: $25.00
 brand: Ethnic
 description: Basic shirt with Embroidered Sleeves and Pockets on both sides.
-source: https://asiantreasures.wordpress.com/1846-2/
 color: White
 fabric: Khaddar
-old_site_slug: 1846-2
 size: S (10), M (12)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

@@ -2,10 +2,8 @@ name: Lawn Embroidered Pret
 price: $28.00
 brand: Beechtree
 description: Full front embroidered shirt with contrast piping on sleeves.
-source: https://asiantreasures.wordpress.com/220-2/
 color: Baby Pink
 fabric: Lawn
 fit: Loose Fit
-old_site_slug: 220-2
 size: M (12)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

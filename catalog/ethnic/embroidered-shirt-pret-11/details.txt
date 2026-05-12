@@ -2,9 +2,7 @@ name: Embroidered Shirt-Pret
 price: $25.00
 brand: Ethnic
 description: Ban Neck with buttons, Embroidered Sleeves Along with front-Stripe Detail.
-source: https://asiantreasures.wordpress.com/1850-2/
 color: Bright Pink
 fabric: Khaddar
-old_site_slug: 1850-2
 size: S (10), M (12)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

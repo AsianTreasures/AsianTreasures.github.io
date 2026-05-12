@@ -2,9 +2,7 @@ name: Embroidered Shirt-Pret
 price: $20.00
 brand: Limelight
 description: A perfect casual wear with Round Neckline with button detail, Embroidered Sleeves border Along with back Embroidered patch.
-source: https://asiantreasures.wordpress.com/1979-2/
 color: Purple
 fabric: Khaddar
-old_site_slug: 1979-2
 size: S (10), M (12)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

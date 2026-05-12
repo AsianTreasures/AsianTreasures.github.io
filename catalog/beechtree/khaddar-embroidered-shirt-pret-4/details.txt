@@ -2,10 +2,8 @@ name: Khaddar Embroidered Shirt-Pret
 price: $23.00
 brand: Beechtree
 description: Embroidered Shirt with Boat Neckline and Placket. Accent Embroidered Detail on Sleeves and Placket. Straight Hem.
-source: https://asiantreasures.wordpress.com/574-2/
 color: Bright Pink
 fabric: Slub Khaddar
 fit: Loose Fit
-old_site_slug: 574-2
 size: S (10), M(12)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

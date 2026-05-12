@@ -2,10 +2,8 @@ name: Embroidered Shirt-Pret
 price: $32.00
 brand: Beechtree
 description: Composed Panel Embroidered Shirt with Handwork Detail on Neckline and Sleeves.
-source: https://asiantreasures.wordpress.com/1515-2/
 color: Peach
 fabric: Slub Lawn
 fit: Regular Fit
-old_site_slug: 1515-2
 size: S (10), M (12)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

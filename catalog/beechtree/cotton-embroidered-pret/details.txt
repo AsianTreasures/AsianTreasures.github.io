@@ -2,10 +2,8 @@ name: Cotton Embroidered Pret
 price: $25.00
 brand: Beechtree
 description: A Line Paneled Paper Cotton Shirt with Pleats and Stitch Details on Panels. Embroidery On Neckline and Sleeves with Colorful Resham, Tilla and Mirror Work.
-source: https://asiantreasures.wordpress.com/158-2/
 color: Paled Turquoise
 fabric: Cotton
 fit: Loose Fit
-old_site_slug: 158-2
 size: S (10), M (12)
-what_you_ll_get: Shirt+Slip
+what_you_will_get: Shirt+Slip

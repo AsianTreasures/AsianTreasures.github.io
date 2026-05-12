@@ -2,10 +2,8 @@ name: EMBROIDERED JACQUARD SHIRT (LUXURY PRET)
 price: $33.00
 brand: Beechtree
 description: Embroidered Shirt with Round Neckline and Slit with Placket and Button Detail Long Self Jacquard Shirt with Composed Floral Embroidery on Front Finished with Hand Work Detail on Neckline. Lace Detail on Shirt Neckline, Border on Hem and Sleeves. Composed Embroidered Sleeve Cuff. Loop Button Detail on Back
-source: https://asiantreasures.wordpress.com/2020-2/
 color: Peach
 fabric: Jacquard
 fit: Special Fit
-old_site_slug: 2020-2
 size: L (14)
-what_you_ll_get: Shirt+ attached Slip
+what_you_will_get: Shirt+ attached Slip

@@ -2,10 +2,8 @@ name: Embroidered Pret
 price: $26.00
 brand: Beechtree
 description: Band Neck with Embroidered Placket. Full Embroidered Front.
-source: https://asiantreasures.wordpress.com/154-2/
 color: Green
 fabric: Multi Neps
 fit: Loose Fit
-old_site_slug: 154-2
 size: M (12), L (14) sold
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

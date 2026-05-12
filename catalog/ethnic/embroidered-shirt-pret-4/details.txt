@@ -2,9 +2,7 @@ name: Embroidered Shirt-Pret
 price: $25.00
 brand: Ethnic
 description: Round Neckline with intricate border, Loose Sleeves with poncho style makes it a perfect casual wear.
-source: https://asiantreasures.wordpress.com/1874-2/
 color: Black
 fabric: Khaddar
-old_site_slug: 1874-2
 size: S (10), M (12)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

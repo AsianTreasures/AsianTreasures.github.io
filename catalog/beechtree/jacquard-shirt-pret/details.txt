@@ -2,10 +2,8 @@ name: Jacquard Shirt-Pret
 price: $18.00
 brand: Beechtree
 description: Loose Fit Kurta with Trendy Lace Finishing on Sleeves and Neckline.
-source: https://asiantreasures.wordpress.com/984-2/
 color: Lavender
 fabric: Jacquard
 fit: Loose Fit
-old_site_slug: 984-2
 size: M (12)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

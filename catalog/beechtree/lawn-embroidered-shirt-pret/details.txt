@@ -2,10 +2,8 @@ name: Lawn Embroidered Shirt-Pret
 price: $28.00
 brand: Beechtree
 description: Fully Embroidered Shirt with Sequins and Scalloped Borders. Band Neckline with Placket. Pearl Detail on Front. Straight Hem.
-source: https://asiantreasures.wordpress.com/1517-2/
 color: White
 fabric: Lawn
 fit: Special Fit
-old_site_slug: 1517-2
 size: S (10)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

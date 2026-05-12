@@ -2,10 +2,8 @@ name: Embroidered Shirt-Pret
 price: $26.00
 brand: Beechtree
 description: Band Neckline with Full Front Floral Embroidery. Piping Details on Sleeves.
-source: https://asiantreasures.wordpress.com/162-2/
 color: Pistachio
 fabric: Viscose
 fit: Loose Fit
-old_site_slug: 162-2
 size: L (14)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

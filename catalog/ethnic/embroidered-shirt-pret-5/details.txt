@@ -2,9 +2,7 @@ name: Embroidered Shirt-Pret
 price: $27.00
 brand: Ethnic
 description: Ethnic design traditionally crafted Neckline with button detail and fully Embroidered Sleeves Along with Top-Stitch Detail.
-source: https://asiantreasures.wordpress.com/1867-2/
 color: Off White
 fabric: Khaddar
-old_site_slug: 1867-2
 size: S (10), M (12)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

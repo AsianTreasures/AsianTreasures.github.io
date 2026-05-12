@@ -2,10 +2,8 @@ name: Lawn Embroidered Shirt-Pret
 price: $26.00
 brand: Beechtree
 description: Basic Boat Neckline Tunic with Embroidered Front. Button Detail on Neckline
-source: https://asiantreasures.wordpress.com/164-2/
 color: Blue
 fabric: Lawn
 fit: Loose Fit
-old_site_slug: 164-2
 size: L (14)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

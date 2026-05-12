@@ -200,7 +200,7 @@ def unique_path(path):
 
 
 def write_details(path, details):
-    order = ["name", "price", "brand", "status", "description", "source"]
+    order = ["name", "price", "brand", "status", "description"]
     lines = []
     for key in order:
         if details.get(key):
@@ -240,10 +240,10 @@ def main():
             "price": price,
             "brand": brand,
             "status": status,
-            "old_site_slug": slug,
-            "source": page.get("link", ""),
             **details,
         }
+        if "what_you_ll_get" in item_details:
+            item_details["what_you_will_get"] = item_details.pop("what_you_ll_get")
         item_details["brand"] = brand
 
         products.append(

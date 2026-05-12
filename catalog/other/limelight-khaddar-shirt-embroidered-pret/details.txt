@@ -1,9 +1,7 @@
 name: Limelight Khaddar Shirt-Embroidered (Pret)
 price: $20.00
 brand: Other
-source: https://asiantreasures.wordpress.com/700-2/
 color: Parrot Green
 fabric: Khaddar
-old_site_slug: 700-2
 size: M, L
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

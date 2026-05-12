@@ -2,10 +2,8 @@ name: Embroidered Pret
 price: $24.00
 brand: Beechtree
 description: Embroidered Kurta with Band Neckline and Slit. Embroidered Border on Sleeves. Round Hem.
-source: https://asiantreasures.wordpress.com/142-2/
 color: Yellow
 fabric: Missouri Lawn
 fit: Regular Fit
-old_site_slug: 142-2
 size: M (12), L (14)sold
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

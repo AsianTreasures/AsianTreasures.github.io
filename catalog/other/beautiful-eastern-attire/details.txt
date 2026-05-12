@@ -2,11 +2,9 @@ name: Beautiful Eastern Attire
 price: $25.00
 brand: Other
 description: Head out in this contemporary yet elegant teal hued shirt featuring beautiful embroidery on the front and delicate lace detailing. We ship worldwide with a flat shipping fee.
-source: https://asiantreasures.wordpress.com/917-2/
 color: Teal
 cut: Boxy
 dupatta: Not Included
 fabric: Slub
-old_site_slug: 917-2
 slip: Not Included
 trouser: Not Included

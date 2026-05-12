@@ -2,10 +2,8 @@ name: Embroidered Shirt-Pret
 price: $20.00
 brand: Beechtree
 description: Basic shirt with embroidered V-neckline with lace insert on center front, embroidery on hem, and pleated border with handwork and embroidery on sleeves with lace insert.
-source: https://asiantreasures.wordpress.com/1311-2/
 color: White
 fabric: Yarn Dyed
 fit: Loose Fit
-old_site_slug: 1311-2
 size: ?
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

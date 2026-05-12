@@ -2,10 +2,8 @@ name: EMBROIDERED COTTON NET SHIRT (LUXURY PRET)
 price: $33.00
 brand: Beechtree
 description: 1Pc Embroidered Shirt with Panels and Embroidered Borders on Hem and Sleeves and Contrasting Lace Finishings.
-source: https://asiantreasures.wordpress.com/2112-2/
 color: Purple
 fabric: Cotton Net
 fit: Regular Fit
-old_site_slug: 2112-2
 size: S (10)
-what_you_ll_get: Shirt+ attached Slip
+what_you_will_get: Shirt+ attached Slip

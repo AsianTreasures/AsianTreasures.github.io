@@ -2,10 +2,8 @@ name: Lawn Embroidered Shirt-Pret
 price: $24.00
 brand: Beechtree
 description: Band Neckline Shirt with Embroidered Border on Front and Sleeves Finished with Lace Edging
-source: https://asiantreasures.wordpress.com/1315-2/
 color: Tea Pink
 fabric: Lawn
 fit: Loose Fit
-old_site_slug: 1315-2
 size: L (14)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

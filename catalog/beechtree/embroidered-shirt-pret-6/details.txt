@@ -2,10 +2,8 @@ name: Embroidered Shirt-Pret
 price: $25.00
 brand: Beechtree
 description: Embroidered Kurta with Boat Neck. Button Details on Front. 3Q Sleeves with Slit. Round Hem.
-source: https://asiantreasures.wordpress.com/1482-2/
 color: Tea Pink
 fabric: Neps Missouri
 fit: Loose Fit
-old_site_slug: 1482-2
 size: M (12)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

@@ -2,10 +2,8 @@ name: Lawn Embroidered Shirt-Pret
 price: $28.00
 brand: Beechtree
 description: Boat Neck Shirt with Embroidery Details on Sides and Sleeves.
-source: https://asiantreasures.wordpress.com/135-2/
 color: Green
 fabric: Lawn
 fit: Loose Fit
-old_site_slug: 135-2
 size: M (12) sold, L (14)
-what_you_ll_get: Shirt
+what_you_will_get: Shirt

@@ -2,9 +2,7 @@ name: 2 Piece Velvet Dress-Embroidered (Luxury Pret)
 price: $75.00
 brand: Limelight
 description: Beautiful 2-piece velvet dress with golden tilla work on its shirt. Perfect for special occasions.
-source: https://asiantreasures.wordpress.com/nnn/
 color: Black
 fabric: Velvet
-old_site_slug: nnn
 size: S (10), M (12) Sold
-what_you_ll_get: Shirt+Trouser
+what_you_will_get: Shirt+Trouser

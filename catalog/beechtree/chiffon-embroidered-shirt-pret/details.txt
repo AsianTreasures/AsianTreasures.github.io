@@ -2,10 +2,8 @@ name: Chiffon Embroidered Shirt-Pret
 price: $30.00
 brand: Beechtree
 description: Chiffon Shirt with Contrast Black Embroidery.
-source: https://asiantreasures.wordpress.com/986-2/
 color: Red
 fabric: Chiffon
 fit: Loose Fit
-old_site_slug: 986-2
 size: M (12), L (14)
-what_you_ll_get: Shirt+Slip
+what_you_will_get: Shirt+Slip
